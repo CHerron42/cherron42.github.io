@@ -101,7 +101,8 @@
 
 			footer {
 				
-				font-family: 'Montserrat', sans-serif;  
+                font-family: 'Montserrat', sans-serif; 
+                font-size: 70%; 
   				text-align: center;
   				background-color: #e3d5b6;
 				color:#2b3a47;
