@@ -46,7 +46,7 @@
 			}
 
 			
-			header {
+			.header {
   				display: flex;
   				justify-content: space-between;
   				align-items: center;
@@ -68,7 +68,6 @@
 
 			.assignment-list {
 				font-family: 'Montserrat', sans-serif;
-				align: left;
 				padding: 25px;
 			}
 
