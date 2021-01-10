@@ -33,7 +33,7 @@
 
       
         document.getElementById("currentDate").textContent = fullDate;
-        document.getElementById("currentYear").textContent = d.getFullYear();
+        document.getElementById("currentYear").textContent = now.getFullYear();
         
 
         let pagelastModified = new Date(document.lastModified);
