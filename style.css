@@ -17,10 +17,8 @@
 			main { 
   				margin: auto;
   				background-color: #ffffff;
-			}
-
-			
-
+            }
+            
 			h1 {
 				font-family: 'Lemon', cursive;
 				background-color: #e3d5b6;
@@ -49,7 +47,7 @@
 			.header {
   				display: flex;
   				justify-content: space-between;
-  				align-items: center;
+                align-items: center;
   				height: 85px;
   				padding-top: 5px;
             }
@@ -58,8 +56,10 @@
 
 			.my-photo {
 				
-				float: right;
-				margin: -150px 50px 0px 0px;
+                float: right;
+                border-radius: 15px;
+                margin: -150px 50px 0px 0px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
             }
             
