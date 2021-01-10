@@ -26,7 +26,7 @@
         "December",
     ];
 			 
-        let now = newDate(); 
+        let now = new Date(); 
         let dayName = daynames[now.getDay()];
         let month = months[now.getMonth()];
         let fullDate = dayName + ", " + month + " " + now.getDate() + ", " + now.getFullYear();
