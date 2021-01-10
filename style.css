@@ -100,12 +100,11 @@
 			}
 
 			footer {
-				display: flex;
+				
 				font-family: 'Montserrat', sans-serif;  
-  				justify-content: center;
+  				text-align: center;
   				background-color: #e3d5b6;
 				color:#2b3a47;
-				flex: 50%;
 				padding: 25px;
             }
             
