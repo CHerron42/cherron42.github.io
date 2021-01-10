@@ -59,8 +59,7 @@
 			.my-photo {
 				
 				float: right;
-				padding-right: 50px;
-				margin-top: -150px;
+				margin: -150px 50px 0px 0px;
 
             }
             
