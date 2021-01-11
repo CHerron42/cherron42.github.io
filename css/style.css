@@ -17,7 +17,12 @@
 			main { 
   				margin: auto;
   				background-color: #ffffff;
-            }
+			}
+			
+			img {
+				max-width: 100%;
+				height: auto;
+			}
             
 			h1 {
 				font-family: 'Lemon', cursive;
@@ -35,7 +40,11 @@
                 margin: 25px 0px 0px 25px;
                 letter-spacing: 1px;
 
-            }
+			}
+			
+			.page-title {
+				border-bottom: 2px goldenrod;
+			}
 
 
 			p {
@@ -81,7 +90,7 @@
 
 			nav, a{
   				font-size: 1em; 
-  				color: #00838F;
+  				color: #016c6c;
   				padding: 10px;
   				text-align: right;
 				text-decoration: none;
@@ -100,7 +109,7 @@
 			footer {
 				
                 font-family: 'Montserrat', sans-serif; 
-                font-size: 70%; 
+                font-size: 80%; 
   				text-align: center;
   				background-color: #e3d5b6;
 				color:#2b3a47;
