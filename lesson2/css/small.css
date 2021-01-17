@@ -1,6 +1,6 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
+/* css for mobile view */
 
-@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Lemonada:wght@500&family=Montserrat:wght@300;400;500;600&display=swap');
+
 
 			body {
 				background-color: #2b3a47;
@@ -14,10 +14,12 @@
   				 max-width: 85%;
 			}
 
-			main { 
-				margin: auto;
-				font-size: .8rem;
-  				background-color: #ffffff;
+			main {
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+                font-size: 0.8rem;
+                background-color: #ffffff;
 			}
 			
 			img {
@@ -42,13 +44,12 @@
                 letter-spacing: 1px;
 
 			}
-
-			p {
+			
+		p {
 				font-family: 'Montserrat', sans-serif;
 				color: #2b3a47;
 			}
-
-			
+		
 			.header {
   				display: flex;
   				justify-content: space-between;
@@ -57,21 +58,6 @@
   				padding-top: 5px;
             }
             
-          
-
-			.my-photo {
-			    border-radius: 15px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-            }
-            
-			
-
-			.assignment-list {
-				font-family: 'Montserrat', sans-serif;
-				padding: 25px;
-			}
-
 			nav ul {
   				list-style: none;
   				display: flex;
