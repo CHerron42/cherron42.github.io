@@ -1,0 +1,11 @@
+body {
+    background-color: #2b3a47;
+    padding: 5px 25px;
+      font-size: 18px;
+      margin: 0;
+}
+
+#content {
+    margin: 0 auto; 
+     max-width: 85%;
+}

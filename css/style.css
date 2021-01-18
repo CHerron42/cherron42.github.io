@@ -1,7 +1,4 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
-
-@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Lemonada:wght@500&family=Montserrat:wght@300;400;500;600&display=swap');
-
+/* responsive css for phones*/
 			body {
 				background-color: #2b3a47;
 				padding: 5px 25px;
@@ -11,12 +8,12 @@
 
 			#content {
  				 margin: 0 auto; 
-  				 max-width: 85%;
+  				 max-width: 90%;
 			}
 
 			main { 
 				margin: auto;
-				font-size: .8rem;
+				
   				background-color: #ffffff;
 			}
 			
@@ -32,6 +29,7 @@
 				flex: 50%;
 				padding: 35px;
 				letter-spacing: 2px;
+				font-size: 10vw;
             }
             
             h2 {
@@ -53,15 +51,17 @@
   				display: flex;
   				justify-content: space-between;
                 align-items: center;
-  				height: 85px;
+  				height: 75px;
   				padding-top: 5px;
             }
             
           
 
 			.my-photo {
-			    border-radius: 15px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			   border-radius: 15px;
+			   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			   margin-left: 25px;
+			   
 
             }
             
