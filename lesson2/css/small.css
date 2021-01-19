@@ -9,9 +9,13 @@
   				margin: 0;
 			}
 
+			* {
+				box-sizing: border-box;
+			}
+
 			#content {
  				 margin: 0 auto; 
-  				 max-width: 85%;
+  				 max-width: 90%;
 			}
 
 			main {
@@ -23,9 +27,24 @@
 			}
 			
 			img {
-				max-width: 300px;
+				max-width: 250px;
 				height: auto;
 			}
+
+			.column {
+				width: 100%;
+				display: block;
+				margin-bottom: 20px;
+			}
+
+			.card {
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+				padding: 16px;
+				text-align: center;
+				background-color: #f1f1f1;
+			}
+		
+			
             
 			h1 {
 				font-family: 'Lemon', cursive;
@@ -37,11 +56,13 @@
             }
             
             h2 {
-                font-family: 'Montserrat', sans-serif;
-                color: #2b3a47;
-                text-align: left;
+				font-family: 'Montserrat', sans-serif;
+                color: #2b3a47; 
+				text-align: center;
+				padding: 10px 35px;
                 margin: 25px 0px 0px 25px;
-                letter-spacing: 1px;
+				letter-spacing: 1px;
+				border-bottom-color: #2b3a47;
 
 			}
 			
@@ -56,7 +77,9 @@
                 align-items: center;
   				height: 85px;
   				padding-top: 5px;
-            }
+			}
+			
+		
             
 			nav ul {
   				list-style: none;

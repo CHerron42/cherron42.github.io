@@ -2,17 +2,26 @@
 
 @media screen and (min-width: 37.5em) {
 	main {
-        grid-template-columns: 1fr 1fr;
+        
         font-size: 1.2em;
         
 	}
 
-    .column-1 {
-        grid-column: 1;
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 0 20px;
     }
-	.column-2 {
-        grid-column: 2;
 
+    .row {
+        padding: 0 -5px;
     }
+
+    .row:after {
+        content:"";
+        display: table;
+        clear: both;
+    }
+	
 }
 	
