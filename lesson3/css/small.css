@@ -29,6 +29,7 @@ h2 {
 }
 h3,
 h4 {
+    color: #536878;
     font-family: 'Poppins', sans-serif;
 }
 #logo {
@@ -37,6 +38,7 @@ h4 {
 }
 
 .logo-header {
+    font-family: 'Lobster Two', cursive;
     padding: 10px;
 }
 
@@ -47,7 +49,7 @@ h4 {
 
 
 nav {
-	background-color: #fb8500;
+	background-color: #F58300;
 	text-align: center;
     box-shadow: 0 2px 15px gray;
    
@@ -74,7 +76,7 @@ nav a:hover {
     
 }
 a:visited {
-    color: #8ecae6;
+    color: #BCE0F0;
 }
 .active {
 	color: yellow;
