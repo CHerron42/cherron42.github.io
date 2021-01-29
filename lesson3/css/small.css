@@ -16,7 +16,7 @@ header,
 nav,
 main,
 footer {
-	max-width: 767px;
+	
 	margin: 0 auto;
 }
 h1 {
@@ -98,8 +98,10 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+
 footer {
 	flex: 0 1 100%;
     height: 7rem;
     font-size:80%;
+    text-align: center;
 }
