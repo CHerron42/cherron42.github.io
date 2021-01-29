@@ -92,9 +92,7 @@ p {
 .color-scheme {
     width: 100%;
 }
-.currentDate {
-    font-family: 'Poppins', sans-serif;
-}
+
 .last-modified {
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
