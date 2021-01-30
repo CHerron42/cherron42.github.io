@@ -1,7 +1,7 @@
 /*css for desktop screen*/
 
 @media only screen and (min-width: 60em) {
-    
+
     h1 {
         font-size: 45px;
     }
@@ -11,4 +11,7 @@
 	main {
 		grid-template-columns: 1fr 1fr 1fr;
     }
+    footer {
+        max-width: 850px;
+    } 
 }
