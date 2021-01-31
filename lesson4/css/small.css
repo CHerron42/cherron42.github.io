@@ -96,7 +96,7 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-.pagecontent {
+pagecontent {
     background-color:#8ecae6;
     color: #36454f;
     align-items: center;
@@ -125,6 +125,8 @@ footer a:hover {
     text-decoration: underline;
 
 }
-.responsive li {
-	display: block;
-}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
