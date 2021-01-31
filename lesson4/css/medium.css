@@ -9,27 +9,14 @@
     footer {
         display: flex;
     }
-    .navigation {
-		display: flex;
-    }
-    .navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-    }
     
     nav button {
         display: none;
     }
-
-   
-
-    nav ul { display: flex; }
+    nav ul.hide {
+        display: block;
+    }
+    nav ul { display: block; }
     nav ul li { flex: 1 1 100%; }
    
     nav a {
