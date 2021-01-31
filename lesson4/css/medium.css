@@ -14,9 +14,9 @@
         display: none;
     }
     nav ul.hide {
-        display: block;
+        display: flex;
     }
-    nav ul { display: block; }
+    nav ul { display: flex; }
     nav ul li { flex: 1 1 100%; }
    
     nav a {

@@ -130,8 +130,4 @@ footer a:hover {
     text-decoration: underline;
 
 }
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
