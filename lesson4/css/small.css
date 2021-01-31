@@ -96,11 +96,12 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-.site-plan {
-    width: 100%;
-}
-.color-scheme {
-    width: 100%;
+.pagecontent {
+    background-color:#8ecae6;
+    color: #36454f;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100px;
 }
 
 .last-modified {
