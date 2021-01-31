@@ -21,16 +21,20 @@
 	}
 	.navigation li:first-child {
 		display: none;
-	}
+    }
+    
+    nav button {
+        display: none;
+    }
+
+   
 
     nav ul { display: flex; }
     nav ul li { flex: 1 1 100%; }
-    nav ul { 
-        display: flex;
-           
-        }
+   
     nav a {
         font-size: 1rem;
+        padding: .8rem 1rem;
         }
     #logo {
         float: left;

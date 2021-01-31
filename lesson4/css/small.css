@@ -26,6 +26,7 @@ h1 {
 h2 {
     color: #FB8300;
     font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
 }
 h3,
 h4 {
@@ -47,13 +48,19 @@ h4 {
     padding: 10px;
 }
 
-
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #FFFAEA;
+    
+}
 nav {
 	background-color: #1b0a3b;
-	text-align: center;
     box-shadow: 0 2px 15px gray;
    
-    
+ 
 }
 nav ul {
 	list-style-type: none;
@@ -65,21 +72,24 @@ nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 0.75rem;
+    padding: 0.8rem 2%;
+    border-top: 1px solid rgba(0,0,0,0.6);
 	text-decoration: none;
     font-size: 0.95rem;
     font-family: 'Poppins', sans-serif;
 }
+
+
 nav a:hover {
-	background-color: #8ecae6;
-    color: #36454f;
-    
+    background-color: #8ecae6;
+    color: #36454f; 
 }
-a:visited {
-    color: #BCE0F0;
-}
+
 .active {
 	color: #FB8300;
+}
+nav ul.hide {
+    display: none;
 }
 
 p {
@@ -102,6 +112,17 @@ footer {
     flex: 0 1 100%;
     height: 7rem;
     font-size: 80%;
+}
+
+footer a{
+    color: #8ecae6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8ecae6;
+    text-decoration: underline;
+
 }
 .responsive li {
 	display: block;
