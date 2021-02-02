@@ -100,31 +100,38 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-.hero {
-    background-image: url("images/stockvault-landscape-in-idaho234021.jpg");
-    height: 50%;
+.hero { 
+    
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto; 
+    background-position: center;
+    margin: 20px auto; 
    
 }
-.page-title {
-    position: absolute; 
-    bottom: 0; 
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 100%; 
-    padding: 20px; 
-}
+
 .hero-image {
     max-width: 100%;
     margin: 0 auto;  
 }
+.page-title {
+    position: absolute; 
+    bottom: 2px;  
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    max-width: 100%; 
+    padding: 20px;
+    font-size: 70%; 
+}
 
-
-
+.extended .article {
+    display: flex;
+    flex-direction: column;
+}
+.article {
+    
+}
 .last-modified {
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;

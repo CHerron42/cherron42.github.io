@@ -8,6 +8,7 @@
     main,
     footer {
         display: flex;
+        flex-wrap: wrap;
     }
     
     nav button {
@@ -27,10 +28,21 @@
         float: left;
     } 
     
-    .hero .page-title .hero-image {
+    .hero .hero-image {
         
+        height: 400px;
+        
+    }
+    .page-title {
+        height: 100px;
+        width: 95%;
+        font-size: 100%;
+    }
+    .extended {
+        flex-direction: row;
         
     }
    
+  
     
 }
