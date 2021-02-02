@@ -1,5 +1,8 @@
 /*css for mobile view*/
 
+
+
+
 header,
 footer {
 	background-color: #032538;
@@ -26,6 +29,7 @@ h1 {
 h2 {
     color: #FB8300;
     font-family: 'Poppins', sans-serif;
+    
 }
 h3,
 h4 {
@@ -39,21 +43,28 @@ h4 {
 
 .logo-header {
     font-family: 'Lobster Two', cursive;
-    padding: 10px;
+    
 }
 
 .motto {
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    
 }
 
-
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: #FFFAEA;
+    font-family: 'Poppins', sans-serif;
+    
+}
 nav {
 	background-color: #1b0a3b;
-	text-align: center;
     box-shadow: 0 2px 15px gray;
    
-    
+ 
 }
 nav ul {
 	list-style-type: none;
@@ -65,41 +76,75 @@ nav ul li a {
 	display: block;
 	color: #fff;
 	text-align: center;
-	padding: 0.75rem;
+    padding: 0.8rem 2%;
+    border-top: 1px solid rgba(0,0,0,0.6);
 	text-decoration: none;
     font-size: 0.95rem;
     font-family: 'Poppins', sans-serif;
 }
+
+
 nav a:hover {
-	background-color: #8ecae6;
-    color: #36454f;
-    
+    background-color: #8ecae6;
+    color: #36454f; 
 }
 
 .active {
-	color: yellow;
+	color: #FB8300;
+}
+nav ul.hide {
+    display: none;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
 }
 
-.site-plan {
-    width: 100%;
+.hero {
+    background-image: url("../images/stockvault-landscape-in-idaho234021.jpg");
+    height: 50%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto; 
+   
 }
-.color-scheme {
-    width: 100%;
+.page-title {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%; 
+    padding: 20px; 
 }
+.hero-image {
+    max-width: 100%;
+    margin: 0 auto;  
+}
+
+
 
 .last-modified {
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
 }
 
-
 footer {
-	flex: 0 1 100%;
+    flex: 0 1 100%;
     height: 7rem;
-    font-size:80%;
-    text-align: center;
+    font-size: 80%;
+    text-align:center;
 }
+
+footer a{
+    color: #8ecae6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8ecae6;
+    text-decoration: underline;
+
+}
+
