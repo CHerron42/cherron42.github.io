@@ -42,11 +42,13 @@
         width: 94%;
         font-size: 100%;
     }
-    .extended {
-        
-        
-    }
+    
    
-  
+    .forecast-container {
+        flex-direction: row;
+    }
+    .forecast-container > .forecast-day {
+        margin: 30px;
+    }
     
 }

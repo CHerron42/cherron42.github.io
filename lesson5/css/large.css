@@ -14,4 +14,7 @@
 	.page-title {
 		width: 95%;
 	}
+	.forecast-container > .forecast-day {
+		margin: 40px;
+	}
 }

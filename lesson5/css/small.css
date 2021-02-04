@@ -126,14 +126,27 @@ p {
 }
 
 .extended .article {
+   padding: 20px;
+    
+}
+.forecast-container {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    
+    justify-content: space-around;
+    align-items: center;
+    
     
 }
-.article {
-    
+.forecast-container > .forecast-day {
+    flex: 0 1 auto;
+    background: #e0e0e0;
+    padding: 30px;
+    margin: 10px;
+    align-items: center;
+
 }
+
 .last-modified {
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;

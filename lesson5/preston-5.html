@@ -30,7 +30,7 @@
        
         
             <nav class="navigation">
-                <button onclick="toggleMenu()">&#9776; Menu</button>
+                <button onclick="toggleMenu()">&#9776;</button>
                 <ul id="hamNav" class="hide">
                 <li><a href="#">Home</a></li>
                 <li><a class="active" href="preston-5.html">Preston</a></li>
@@ -53,14 +53,22 @@
 
                 <br>
             <div class="extended">
-                <h3>Extended Forecast</h3>
+                <h3>Extended Forecast</h3><br>
+                    <div class="forecast-container">
+                        <div class="forecast-day">1</div>
+                        <div class="forecast-day">2</div>
+                        <div class="forecast-day">3</div>
+                        <div class="forecast-day">4</div>
+                        <div class="forecast-day">5</div><br>
+                    </div>
             </div><br>
             
             <div class="article">
-                <h3>Points of Interest</h3></div>
+                <h3>Points of Interest</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
             <br>
-            <div class="LocationMap"></div>
-            <br>
+            
                 
             
 
@@ -71,8 +79,13 @@
 			
 	</main>
 	<footer>
-        <p class="tag-line">&copy;<span id="currentYear"></span> | Connie Herron | Virginia | <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a> <br>
-        <span id="currentDate"></span> <br></p>
+        <div class="LocationMap"></div>
+        <div class="contact">
+            <p class="tag-line">&copy;<span id="currentYear"></span><br>
+            Connie Herron - Virginia <br> 
+            <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a> <br>
+            <span id="currentDate"></span> <br></p>
+        </div>
        
 
     </footer>
