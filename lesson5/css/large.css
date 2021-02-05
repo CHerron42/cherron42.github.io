@@ -17,4 +17,9 @@
 	.forecast-container > .forecast-day {
 		margin: 5px 40px;
 	}
+	.social {
+        width: 35px;
+    }
+
+
 }

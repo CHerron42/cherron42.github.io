@@ -3,24 +3,20 @@
 
 
 
-header,
-footer {
+header
+ {
 	background-color: #032538;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
     justify-content: space-between;
     color: #FFFAEA;
-    
-    
 }
 
 header,
 nav,
 main,
-footer {
-	
-	margin: 0 auto;
+footer {margin: 0 auto;
 }
 h1 {
     font-size: 2rem;
@@ -36,18 +32,22 @@ h4 {
     color: #536878;
     font-family: 'Poppins', sans-serif;
 }
+h3 {
+    margin-left: 1rem;
+}
 #logo {
     width: 175px;
-    
 }
 
 .logo-header {
     font-family: 'Lobster Two', cursive;
+    margin-left: 1rem;
     
 }
 
 .motto {
     font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
     
 }
 
@@ -155,26 +155,28 @@ p {
     padding: 20px;
     margin-top: 5px;
 }
-.locationMap {
-    flex: 0 1 auto;
-    padding: 40px;
-   
+section {
+    flex: 1 1 auto;
+    background: #bee5f7;
+    padding: 40px 25px;
     font-size: 80%;
+    justify-content: center;
+    align-items: center;
+}
+.social {
+    width: 20px;
 }
 
-.last-modified {
-    padding-bottom: 20px;
-    font-family: 'Poppins', sans-serif;
-    justify-content: center;
-    align-items: center; 
-}
 
 
 footer {
-    flex: 0 1 100%;
+    flex: 1 1 auto;
     height: 8rem;
-    font-size: 80%;
-     
+    font-size: 70%;
+    background-color: #032538;
+	flex-flow: column;
+    color: #FFFAEA;  
+    padding: 10vm;  
 }
 
 footer a{
@@ -186,6 +188,10 @@ footer a:hover {
     color: #8ecae6;
     text-decoration: underline;
 
+}
+.tagline {
+    margin: 1rem;
+    text-align: center;
 }
 
 

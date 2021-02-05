@@ -51,10 +51,24 @@
         margin: 5px 30px;
         justify-content: center;
     }
-    .footer {
-        justify-content: flex-start;
+    section {
+        flex-direction: row;
         
-        align-items: left;
+        margin: auto;
     }
+    
+    .contact {
+        float: right;
+        margin-right: 75px;
+        margin-top: -200px;
+        
+    }
+    .social {
+        width: 30px;
+    }
+    .footer  {
+    align-items: center;
+    justify-content: space-between;
+     }
     
 }
