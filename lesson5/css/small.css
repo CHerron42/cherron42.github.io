@@ -9,7 +9,7 @@ footer {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: #FFFAEA;
     
     
@@ -124,6 +124,12 @@ p {
     padding: 20px;
     font-size: 70%; 
 }
+.current {
+    display: block;
+    background: #e0e0e0;
+    padding: 20px;
+    margin-top: 5px;
+}
 
 .extended .article {
    padding: 20px;
@@ -132,31 +138,43 @@ p {
 .forecast-container {
     display: flex;
     flex-direction: column;
-    
     justify-content: space-around;
-    align-items: center;
-    
-    
+    align-items: center;   
 }
 .forecast-container > .forecast-day {
-    flex: 0 1 auto;
+    flex: 1 1 auto;
     background: #e0e0e0;
     padding: 30px;
     margin: 10px;
     align-items: center;
 
 }
+.points-article {
+    display: block;
+    background: #e0e0e0;
+    padding: 20px;
+    margin-top: 5px;
+}
+.locationMap {
+    flex: 0 1 auto;
+    padding: 40px;
+   
+    font-size: 80%;
+}
 
 .last-modified {
     padding-bottom: 20px;
     font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center; 
 }
+
 
 footer {
     flex: 0 1 100%;
-    height: 7rem;
+    height: 8rem;
     font-size: 80%;
-    text-align:center;
+     
 }
 
 footer a{
@@ -169,4 +187,5 @@ footer a:hover {
     text-decoration: underline;
 
 }
+
 

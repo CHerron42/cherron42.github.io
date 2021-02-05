@@ -33,8 +33,8 @@
     } 
     
     .hero .hero-image {
-        
         height: 400px;
+        box-shadow: 2px 2px 5px 2px #888;
         
     }
     .page-title {
@@ -48,7 +48,13 @@
         flex-direction: row;
     }
     .forecast-container > .forecast-day {
-        margin: 30px;
+        margin: 5px 30px;
+        justify-content: center;
+    }
+    .footer {
+        justify-content: flex-start;
+        
+        align-items: left;
     }
     
 }
