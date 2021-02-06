@@ -1,16 +1,16 @@
-            
+            window.onload = function toggleBanner() {
                 let now = new Date();
     			let dayOfWeek = now.getDay();
 
-    			//Show message based on Holiday or day of the week
+    			//hide message based on Holiday or day of the week
 
-    			if (dayOfWeek == 5) {
-    				document.getElementById("bulletin").style.display = "block";
+    			if (dayOfWeek != 6) {
+    				document.getElementById("bulletin").classList.toggle("hide");
     			}
+            }
 
-                else {
-                    document.getElementById("bulletin").style.display = "none";
-                }
+
+                
 
                 
 

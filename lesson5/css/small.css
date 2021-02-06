@@ -109,7 +109,15 @@ p {
     margin: 30px auto; 
    
 }
-.bulletin
+aside.bulletin {
+    background-color: #FB8300;
+    color: #fff;
+    padding: 2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+
 
 .hero-image {
     max-width: 100%;
