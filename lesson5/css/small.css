@@ -99,6 +99,13 @@ nav ul.hide {
 p {
     font-family: 'Poppins', sans-serif;
 }
+.bulletin {
+    background-color: #FB8300;
+    color: #fff;
+    padding: 2em;
+    margin-top: 0;
+    text-align: center;
+}
 
 .hero { 
     
@@ -109,13 +116,7 @@ p {
     margin: 30px auto; 
    
 }
-aside.bulletin {
-    background-color: #FB8300;
-    color: #fff;
-    padding: 2em;
-    margin-top: 0;
-    text-align: center;
-}
+
 
 
 
