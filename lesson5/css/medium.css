@@ -43,7 +43,6 @@
         font-size: 100%;
     }
     
-   
     .forecast-container {
         flex-direction: row;
     }
@@ -51,16 +50,22 @@
         margin: 5px 30px;
         justify-content: center;
     }
+    .preston-points {
+        
+        float: right;
+        
+    }
     section {
         flex-direction: row;
-        
+        padding: 40px 30px;
+        font-size: 80%;
         margin: auto;
     }
     
     .contact {
         float: right;
         margin-right: 75px;
-        margin-top: -200px;
+        margin-top: -210px;
         
     }
     .social {

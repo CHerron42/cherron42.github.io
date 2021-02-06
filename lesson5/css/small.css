@@ -132,8 +132,12 @@ p {
 }
 
 .extended .article {
-   padding: 20px;
+   padding: 30px;
     
+}
+.preston-points {
+    width: 250px; 
+    margin: 1.5rem;
 }
 .forecast-container {
     display: flex;
@@ -158,8 +162,8 @@ p {
 section {
     flex: 1 1 auto;
     background: #bee5f7;
-    padding: 40px 25px;
-    font-size: 80%;
+    padding: 40px 10px;
+    font-size: 90%;
     justify-content: center;
     align-items: center;
 }
