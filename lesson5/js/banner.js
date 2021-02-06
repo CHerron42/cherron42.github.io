@@ -4,7 +4,7 @@
 
     			//hide message based on Holiday or day of the week
 
-    			if (dayOfWeek != 5) {
+    			if (dayOfWeek != 6) {
     				document.getElementById("bulletin").classList.toggle("hide");
     			}
             }
