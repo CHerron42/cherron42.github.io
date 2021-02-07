@@ -16,7 +16,7 @@
 
     }
     aside {
-        display: flex;
+        display: 1 1 flex;
     }
     
     nav button {
