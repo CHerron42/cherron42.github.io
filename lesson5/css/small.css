@@ -100,6 +100,7 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 aside.bulletin {
+    display: block;
     background-color: #FB8300;
     color: #fff;
     padding: 2em;
@@ -107,9 +108,7 @@ aside.bulletin {
     text-align: center;
 
 }
-aside#bulletin.banner.hide {
-    display: none;
-  }
+
 
 .hero { 
     
