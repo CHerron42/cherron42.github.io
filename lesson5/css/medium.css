@@ -16,7 +16,7 @@
 
     }
     aside {
-        display: 1 1 flex;
+        padding: .5rem 15rem;
     }
     
     nav button {
