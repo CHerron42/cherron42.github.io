@@ -6,6 +6,10 @@
 
     			if (dayOfWeek == 5) {
     				document.getElementById("bulletin").style.display="block";
+                }
+                
+                else {
+                    document.getElementById("bulletin".style.display)="none";
     			}
             
 
