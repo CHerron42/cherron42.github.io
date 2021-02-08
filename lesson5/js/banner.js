@@ -1,4 +1,4 @@
-            
+            function announcement() {
                 let now = new Date();
     			let dayOfWeek = now.getDay();
 
@@ -11,6 +11,7 @@
                 else {
                     document.getElementById("bulletin".style.display)="none";
     			}
+            }
             
 
 
