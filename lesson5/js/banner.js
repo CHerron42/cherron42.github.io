@@ -9,7 +9,7 @@
                 }
                 
                 else {
-                    document.getElementById("bulletin".style.display)="none";
+                    document.getElementById("bulletin").style.display="none";
     			}
             }
             
