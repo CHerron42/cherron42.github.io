@@ -8,15 +8,11 @@
 	nav a {
 		font-size: 1.1rem;
 	}
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+	
 	.page-title {
 		width: 95%;
 	}
-	.forecast-container > .forecast-day {
-		margin: 5px 40px;
-	}
+	
 	.social {
         width: 35px;
     }
