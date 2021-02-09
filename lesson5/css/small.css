@@ -99,7 +99,7 @@ nav ul.hide {
 p {
     font-family: 'Poppins', sans-serif;
 }
-aside {
+#bulletin {
     /*display: none;*/
     background-color: #bee5f7;
     color: #000;
