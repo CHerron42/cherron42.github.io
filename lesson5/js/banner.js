@@ -1,17 +1,12 @@
-            
-                let n = new Date();
-    			let d = n.getDay();
+window.onload = function toggleAnnouncement() {
 
-    			//show message based on Holiday or day of the week
+    let d = new Date();
+    let q = d.getDay();
 
-    			if (d==1) {
-    				document.getElementById("bulletin").style.display="block";
-                }
-                
-                else {
-                    document.getElementById("bulletin").style.display="none";
-    			}
-            
+    if (q != 5) {
+        document.getElementById("bulletin").classList.toggle("hide");
+    }
+};
             
 
 
