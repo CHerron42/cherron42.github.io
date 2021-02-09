@@ -1,10 +1,10 @@
             function announcement() {
-                let now = new Date();
-    			let dayOfWeek = now.getDay();
+                let n = new Date();
+    			let d = n.getDay();
 
     			//show message based on Holiday or day of the week
 
-    			if (dayOfWeek == 0) {
+    			if (d == 0) {
     				document.getElementById("bulletin").style.display="block";
                 }
                 
