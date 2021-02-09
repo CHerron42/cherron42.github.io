@@ -4,7 +4,7 @@
 
     			//show message based on Holiday or day of the week
 
-    			if (d==0) {
+    			if (d==1) {
     				document.getElementById("bulletin").style.display="block";
                 }
                 
