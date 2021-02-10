@@ -154,7 +154,7 @@ p {
 .forecast-container > .forecast-day {
     flex: 1 1 auto;
     border-bottom: 3px solid #FB8300;
-    margin: 25px;
+    margin: 23px;
     align-items: center;
 
 }
