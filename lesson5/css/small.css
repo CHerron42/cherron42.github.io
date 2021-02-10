@@ -194,7 +194,7 @@ footer a:hover {
     text-decoration: underline;
 
 }
-aside.banner {
+.banner {
     
     background-color: #bee5f7;
     color: #000;
@@ -206,9 +206,7 @@ aside.banner {
     font-family: 'Poppins', sans-serif;
 
 }
-aside#pancakes.banner.hide {
-    display: none;
-}
+
 .tagline {
     margin: 1rem;
     text-align: center;
