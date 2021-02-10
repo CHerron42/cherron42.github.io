@@ -5,6 +5,9 @@
     h1 {
         font-size: 45px;
     }
+	header {
+		flex-direction: row;
+	}
 	nav a {
 		font-size: 1.1rem;
 	}
@@ -17,5 +20,10 @@
         width: 35px;
     }
 
-
+	#pancakes.announcement {
+		position: relative;
+		width: 100%;
+		padding: .5rem;
+		
+	  }
 }
