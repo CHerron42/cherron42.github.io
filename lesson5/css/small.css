@@ -36,12 +36,13 @@ h3 {
     margin-left: 1rem;
 }
 #logo {
-    width: 175px;
+    width: 225px;   
 }
 
 .logo-header {
     font-family: 'Lobster Two', cursive;
     margin-left: 1rem;
+  
     
 }
 
@@ -194,7 +195,7 @@ footer a:hover {
     text-decoration: underline;
 
 }
-.banner {
+aside.announcement {
     
     background-color: #bee5f7;
     color: #000;
@@ -206,6 +207,9 @@ footer a:hover {
     font-family: 'Poppins', sans-serif;
 
 }
+aside#pancakes.announcement.hide {
+    display: none;
+  }
 
 .tagline {
     margin: 1rem;
