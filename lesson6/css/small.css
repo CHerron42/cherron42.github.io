@@ -101,7 +101,7 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-.hero { 
+main picture.hero { 
     
     position: relative;
     background-repeat: no-repeat;
@@ -117,12 +117,12 @@ p {
 }
 .page-title {
     position: absolute; 
-    bottom: 2px;  
+    bottom: 20px;  
     background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.5); 
     color: #f1f1f1; 
-    max-width: 100%; 
-    padding: 20px;
+    /*max-width: 100%;*/
+    padding: 0px 40px;
     font-size: 70%; 
 }
 .current {

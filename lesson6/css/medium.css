@@ -41,6 +41,8 @@
     }
     .page-title {
         height: 100px;
+        bottom: 2px;
+        padding: 20px;
         width: 94%;
         font-size: 100%;
     }

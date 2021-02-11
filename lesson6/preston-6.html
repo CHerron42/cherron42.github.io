@@ -48,14 +48,15 @@
     
        
 	<main>
-        
-            <div class="hero">
-                <img  class="hero-image" src="images/wdd230_image_franklinOriginal.jpeg" alt="Photo of grassland and mountains in Idaho"><br>
-                <div class="page-title">
-                    <h2 class="hero-header">Preston, Idaho</h2>
-                    <p class="detail">Population: <span id="population">5,176</span></p>
-                </div>
-            </div>
+            <picture class="hero">
+                <source srcset="images/wdd230_image_medium.png" media="(min-width: 500px) and (max-width: 800px)">
+                    <source srcset="images/wdd230_image_large.png" media="(min-width:800px )">
+                    <img  class="hero-image" src="images/wdd230_image_small.png" alt="Photo of grassland and mountains in Idaho"><br>
+                        <div class="page-title">
+                        <h2 class="hero-header">Preston, Idaho</h2>
+                        <p class="detail">Population: <span id="population">5,176</span></p>
+                        </div>
+            </picture>
 
                 <br>
             <div>
@@ -65,11 +66,11 @@
                     
                     <p>
                         Conditions: Cloudy<br>
-                        Temperature: <span id="tempF">45</span>℉<br>
-                        "Feels Like": <span id="displayWindChill"></span><br>
+                        Temperature: <span id="temperature">45</span>℉<br>
+                        "Feels Like": <span onload="toggleWindchill" id="displayWindChill"></span><br>
                         Probability of Precipatation: 78%<br>
                         Humidity: 45%<br>
-                        Wind Speed: <span id="speed">23</span> knots<br>
+                        Wind Speed: <span id="windspeed">23</span> knots<br>
                         Sunrise: 7:28am<br>
                         Sunset: 5:54pm<br>
                     </p>
