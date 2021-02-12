@@ -1,5 +1,5 @@
-			let tempF = parseFloat(document.getElementById('temperature').value);
-    		let speed = parseFloat(document.getElementById('windSpeed').value);
+		let tempF = parseFloat(document.getElementById('temperature').value);
+    	let speed = parseFloat(document.getElementById('windSpeed').value);
 
 			
 
