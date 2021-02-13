@@ -171,6 +171,7 @@ section {
     font-size: 90%;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 .social {
     width: 20px;
