@@ -21,13 +21,15 @@ h1 {
 	color: #1a1a1a;
 }
 img {
-    border: 1px solid #333;
-    padding: 2px;
-    /*filter: blur(0em);*/
-    transition: filter .5s;
+    /*border: 1px solid #333;*/
+    padding: 15px;
+    margin: 5px;
+    filter: blur(0em);
+    transition: filter 5s;
+    box-shadow: 2px 2px 5px 2px #888;
 }
 img[data-src] {
-   /* filter: blur(0.2em);*/
+    filter: blur(0.2em);
 }
  p {
     font-size: 0.8rem;
