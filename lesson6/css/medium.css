@@ -52,6 +52,7 @@
     }
     .forecast-container > .forecast-day {
         justify-content: center;
+        margin: 18px;
     }
     
     .preston-points {
