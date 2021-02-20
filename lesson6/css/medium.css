@@ -59,6 +59,14 @@
          float: right;
         
     }
+    .gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .gallery-item {
+        flex: 50%;
+        max-width: 50%;
+    }
     section {
         flex-direction: row;
         padding: 40px 30px;

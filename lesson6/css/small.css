@@ -173,6 +173,33 @@ section {
     align-items: center;
     margin-bottom: 10px;
 }
+
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+
+}
+.gallery-item {
+	
+    
+}
+.gallery-img {
+    
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 5px;
+    filter: blur(0em);
+    transition: filter 5s;
+    box-shadow: 2px 2px 5px 2px #888;
+}
+/*.gallery-image:hover {
+	transform: scale(1.15);
+}*/
+img[data-src] {
+    filter: blur(0.2em);
+}
+
 .social {
     width: 20px;
 }
