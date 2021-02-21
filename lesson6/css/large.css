@@ -16,6 +16,16 @@
 	.page-title {
 		width: 95%;
 	}
+	.gallery-item {
+		flex: 25%;
+		max-width: 25%;
+		padding: 0 10px;
+	}
+	.gallery-image {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+	}
 	
 	.social {
         width: 35px;
@@ -27,14 +37,6 @@
 		padding: .5rem;
 		
 	  }
-	  .gallery-item {
-		  flex: 25%;
-		  max-width: 25%;
-		  padding: 0 5px;
-	  }
-	  .gallery-image {
-		  margin-top: 8px;
-		  vertical-align: middle;
-		  width: 100%;
-	  }
+	 
+	  
 }

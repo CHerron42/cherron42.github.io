@@ -178,24 +178,27 @@ section {
 .gallery {
     display: flex;
     flex-direction: column;
+    margin-bottom: 25px;
 
 }
-.gallery-item {
+/*.gallery-item {
 	
     
-}
+}*/
 .gallery-img {
     
     border: 1px solid #333;
-    padding: 15px;
+    /*padding: 5px;*/
     margin: 5px;
     filter: blur(0em);
     transition: filter 5s;
     box-shadow: 2px 2px 5px 2px #888;
 }
-/*.gallery-image:hover {
-	transform: scale(1.15);
-}*/
+.gallery-image:hover {
+	/*transform: scale(1.15);*/
+    opacity: 0.3;
+    box-shadow: 2px 2px 5px 2px #888;
+}
 img[data-src] {
     filter: blur(0.2em);
 }

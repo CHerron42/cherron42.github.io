@@ -62,10 +62,16 @@
     .gallery {
         flex-direction: row;
         flex-wrap: wrap;
+        margin: 1rem;
     }
     .gallery-item {
-        flex: 50%;
+        flex: 60%;
         max-width: 50%;
+       /* padding: 2vm;*/
+        
+    }
+    .gallery-image {
+        width: 60%;
     }
     section {
         flex-direction: row;
