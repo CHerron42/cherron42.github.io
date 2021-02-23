@@ -24,15 +24,17 @@ table {
     padding: 0;
     width: 100%;
     table-layout: fixed;
-    box-shadow: 2px 2px 5px 2px #888;
+    box-shadow: 2px 2px 5px 2px #628ca6;
   }
   
   table caption {
     font-size: 1.5em;
     padding: .5em 0;
-    margin: .5em 0 .75em;
+    margin: .5em 0 0;
     background-color: #7fb9c2;
     font-weight: bold;
+    box-shadow: 2px 2px 5px 2px #628ca6;
+    
   }
 
   table th,
