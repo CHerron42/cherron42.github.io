@@ -54,6 +54,9 @@ table .compiled {
     font-size: x-small;
     letter-spacing: 1px;
 }
+table .black-friday {
+    font-style: italic;
+}
   #acme tr:nth-child(even) {
     background-color: #e7f0ed;
   }
