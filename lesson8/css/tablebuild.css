@@ -11,7 +11,7 @@ main {
     max-width: 400px;
 }
 body {
-    font-family: "Ubuntu, sans-serif";
+    font-family: 'Ubuntu', sans-serif;
 }
 h1 {
     text-align: center;
@@ -51,6 +51,8 @@ table .compiled {
     background-color: #7fb9c2;
     font-weight: bold;
     padding: 1em;
+    font-size: x-small;
+    letter-spacing: 1px;
 }
   #acme tr:nth-child(even) {
     background-color: #e7f0ed;
@@ -61,6 +63,7 @@ table .compiled {
   #acme tr:first-child {
       background-color: #628ca6;
       color:white;
+      letter-spacing: 1px;
   }
  
 
