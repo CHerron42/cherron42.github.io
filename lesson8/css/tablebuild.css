@@ -26,7 +26,6 @@ table {
     table-layout: fixed;
     box-shadow: 2px 2px 5px 2px #628ca6;
   }
-  
   table caption {
     font-size: 1.5em;
     padding: .5em 0;
@@ -43,30 +42,29 @@ table {
       padding: .5em 0;
       border: 2px solid rgb(136, 136, 136);
   }
+  table th {
+    background-color: #628ca6;
+    color:white;
+    letter-spacing: 1px;
+}
   table .nov-goal {
     background-color: #628ca6;
     color:white;
 }
-table .compiled {
+  tbody tr:nth-child(even) {
+    background-color: #e7f0ed;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #e7ffed;
+  }
+ 
+  tfoot tr {
     background-color: #7fb9c2;
-    font-weight: bold;
     padding: 1em;
     font-size: x-small;
     letter-spacing: 1px;
+    color: #000;
 }
-table .black-friday {
-    font-style: italic;
-}
-  #acme tr:nth-child(even) {
-    background-color: #e7f0ed;
-  }
-  #acme tr:nth-child(odd) {
-    background-color: #e7ffed;
-  }
-  #acme tr:first-child {
-      background-color: #628ca6;
-      color:white;
-      letter-spacing: 1px;
-  }
+
  
 
