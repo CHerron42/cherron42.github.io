@@ -38,6 +38,10 @@
 figure img {
 	max-width: 100%;
 }
+/*-- Storm Tracker Form --*/
+form label.sbs {
+	padding: .4rem 0;
+}
 	
 /*--Contact Info Section --*/
 	.social {

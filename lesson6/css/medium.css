@@ -73,6 +73,21 @@
     figure img {
         max-width: 90%;
     }
+/*-- Storm Tracker */
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+  }
+textarea {
+    max-width: 80%;
+    padding: .75rem;
+  }
 /* Contact Info Section */
    
     section {
