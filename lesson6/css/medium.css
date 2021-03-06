@@ -112,5 +112,10 @@ textarea {
     align-items: center;
     justify-content: space-between;
      }
+     footer .contact {
+        text-align: right;
+        height: 15rem;
+        padding-top: 200px;
+    }
     
 }

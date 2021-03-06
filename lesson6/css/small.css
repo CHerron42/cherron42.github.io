@@ -309,12 +309,12 @@ fieldset {
 /*-- Map and Contact Info --*/
 section {
     flex: 1 1 auto;
-    background: #bee5f7;
+    
     padding: 40px 10px;
     font-size: 90%;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 2px 15px gray;
+    /*justify-content: center;
+    align-items: center;*/
+    
      
    
 }
@@ -324,7 +324,7 @@ section .social {
 /*-- Footer --*/
 footer {
     flex: 1 1 auto;
-    height: 8rem;
+    height: 20rem;
     font-size: 70%;
     background-color: #032538;
 	flex-flow: column;
