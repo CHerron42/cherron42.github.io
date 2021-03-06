@@ -296,7 +296,7 @@ fieldset {
   }
   
   form label.top input:required {
-    border-left: red solid 6px;
+    border-left: rgb(114, 1, 1) solid 6px;
   }
   form label.top input:required:valid {
     border-left: green solid 6px;
