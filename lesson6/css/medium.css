@@ -88,15 +88,16 @@ textarea {
     max-width: 80%;
     padding: .75rem;
   }
+/*--homepage care section--*/
+section {
+    display: flex;
+    flex-direction: row;
+  }
+  section:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
 /* Contact Info Section */
    
-    section {
-        flex-direction: row;
-        padding: 30px 75px;
-        font-size: 80%;
-        
-       
-    }
     
     .contact {
         float: right;
@@ -115,7 +116,7 @@ textarea {
      footer .contact {
         text-align: right;
         height: 15rem;
-        padding-top: 200px;
+        padding-top: 225px;
     }
     
 }

@@ -42,6 +42,16 @@ figure img {
 form label.sbs {
 	padding: .4rem 0;
 }
+/*--homepage card Section--*/
+
+	.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	section {
+		padding: 5px;
+	}
+
 	
 /*--Contact Info Section --*/
 	.social {

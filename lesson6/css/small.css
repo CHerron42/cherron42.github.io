@@ -306,21 +306,58 @@ fieldset {
     padding: .55rem;
   }
 
-/*-- Map and Contact Info --*/
+/*-- card for homepage --*/
 section {
-    flex: 1 1 auto;
-    
-    padding: 40px 10px;
-    font-size: 90%;
-    /*justify-content: center;
-    align-items: center;*/
-    
-     
-   
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+section:nth-child(odd) img {
+    grid-column: 1;
+  }
+  
+section:nth-child(odd) .data {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+.cards {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    margin-bottom: 2rem;
+           
 }
-section .social {
-    width: 20px;
+
+section {
+    
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #888;
+    
 }
+section h2, h3 {
+    text-align: center;
+}
+section p {
+    font-size: small;
+    font-weight: bold;
+    padding-left: .5rem;
+}
+section img {
+    
+    height: 200px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
 /*-- Footer --*/
 footer {
     flex: 1 1 auto;

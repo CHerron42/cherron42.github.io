@@ -8,31 +8,31 @@ fetch(requestURL)
         const towns = jsonObject['towns'];
         towns.forEach(town => {
             if (town.name == "Preston" || town.name == "Soda Springs" || town.name == "Fish Haven"){
-                let card = document.createElement('article')
+                let card = document.createElement('section')
                 let div = document.createElement('div')
+                let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
-                let motto = document.createElement('h3');
-                let year = document.createElement('p');
-                let people = document.createElement('p');
-                let rain = document.createElement('p');
+                let p1 = document.createElement('p');
+                let p2 = document.createElement('p');
+                let p3 = document.createElement('p');
                 let image = document.createElement('img');
 
                 div.setAttribute('class', 'tInfo')
-                h3.textContent = town.name;
-                h3.setAttribute('class', 'tName');
-                motto.textContent = town.motto;
-                motto.setAttribute('class', 'tMoto');
-                year.textContent = "Year Founded: " + town.yearFounded;
-                people.textContent = "Population: " + town.currentPopulation;
-                rain.textContent = "Average Rain Fall: " + town.averageRainfall;
-                image.setAttribute('src', `images/homepage/${town.photo}`);
+                h2.textContent = town.name;
+                h2.setAttribute('class', 'tName');
+                h3.textContent = "Town Motto: " + town.motto;
+                h3.setAttribute('class', 'tMoto');
+                p1.textContent = "Year Founded: " + town.yearFounded;
+                p2.textContent = "Population: " + town.currentPopulation;
+                p3.textContent = "Average Rain Fall: " + town.averageRainfall + ' ' + 'in.';
+                image.setAttribute('src', `images/${town.photo}`);
                 image.setAttribute('alt', town.name);
 
+                div.appendChild(h2);
                 div.appendChild(h3);
-                div.appendChild(motto);
-                div.appendChild(year);
-                div.appendChild(people);
-                div.appendChild(rain);
+                div.appendChild(p1);
+                div.appendChild(p2);
+                div.appendChild(p3);
                 card.appendChild(div);
                 card.appendChild(image);
 
