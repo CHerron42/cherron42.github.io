@@ -22,9 +22,9 @@
 	}
 /*-- hero Image Title --*/
 	
-	.page-title {
-		width: 95%;
-	}
+.hero .hero-image {
+	width: 750px;
+}
 /*-- gallery Page --*/
 .gallery {
 	display: grid;
