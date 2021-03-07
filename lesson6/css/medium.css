@@ -74,6 +74,9 @@
         max-width: 90%;
     }
 /*-- Storm Tracker */
+    .storm-title {
+        font-size: x-large;
+    }
     form input.submitBtn {
         border: none;
         color: white;
