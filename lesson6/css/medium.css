@@ -57,7 +57,7 @@
     }
 /*--article --*/
     .preston-points {
-         float: right;
+        float: right;
         
     }
 /*--gallery page--*/
@@ -74,32 +74,41 @@
         max-width: 90%;
     }
 /*-- Storm Tracker */
-form input.submitBtn {
-    border: none;
-    
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
+    form input.submitBtn {
+        border: none;
+        color: white;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        margin: 0 0 2rem 2%;
+        width: 96%;
+        max-width: 20rem;
   }
-textarea {
-    max-width: 80%;
-    padding: .75rem;
+    textarea {
+        max-width: 80%;
+        padding: .75rem;
   }
-/*--homepage care section--*/
-section {
-    display: flex;
-    flex-direction: row;
+/*--homepage card section--*/
+
+    section .cards {
+        margin: .5rem auto;
+        border:1px solid #bbb;
+        background-color: #eee;
+        display: flex;
+        flex-wrap: wrap;
+        
+   }
+    section {
+        display: flex;
+        flex-direction: row;
+        max-width: 600px;
+        margin: .5rem auto;
+        
   }
-  section:nth-child(odd) {
-    flex-direction: row-reverse;
+    section:nth-child(odd) {
+        flex-direction: row-reverse;
   }
 /* Contact Info Section */
-   
-    
-    .contact {
+   .contact {
         float: right;
         margin-right: 75px;
         margin-top: -210px;
@@ -110,8 +119,8 @@ section {
     }
 /*-- Page Footer --*/
     .footer  {
-    align-items: center;
-    justify-content: space-between;
+        align-items: center;
+        justify-content: space-between;
      }
      footer .contact {
         text-align: right;
