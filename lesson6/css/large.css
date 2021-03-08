@@ -46,6 +46,7 @@ form label.sbs {
 div.cards{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
 	grid-gap: 20px;
 	text-align: center;
 	margin: 20px auto;
@@ -60,6 +61,12 @@ div.cards{
   .cards img {
 	  align-content: center;
   }
+  section img {
+	height: 160px;
+  }
+footer {
+	height: 30rem;
+}
 
 	
 /*--Contact Info Section --*/

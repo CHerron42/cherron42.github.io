@@ -365,12 +365,12 @@ section img {
 /*-- Footer --*/
 footer {
     flex: 1 1 auto;
-    height: 20rem;
+    height: 35rem;
     font-size: 70%;
     background-color: #032538;
 	flex-flow: column;
     color: #FFFAEA;  
-    padding: 1vw;
+    padding: 2vw;
     
 }
 
