@@ -327,9 +327,7 @@ section:nth-child(odd) .data {
     grid-gap: 10px;
     align-content: center;
     text-align: center;
-    margin: .5rem;
-    
-    
+    margin: .5rem;  
 }
 
 section {
@@ -341,7 +339,6 @@ section {
     border: 1px solid rgb(124, 124, 124);
     border-radius: 10px;
     box-shadow: 2px 2px 5px 2px #888;
-    
 }
 section h2, h3 {
     text-align: center;
