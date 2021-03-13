@@ -152,11 +152,7 @@ main picture.hero {
 .forecast-day > img {
     width: 120px;
 }
-.preston-points {
-    width: 250px; 
-    margin: 1.5rem;
-    box-shadow: 2px 2px 5px 2px #888;
-}
+
 .forecast-container {
     display: flex;
     flex-direction: column;
@@ -182,6 +178,11 @@ main picture.hero {
     background: #e0e0e0;
     padding: 20px;
     margin-top: 5px;
+}
+.preston-points {
+    width: 250px; 
+    margin: 1.5rem;
+    box-shadow: 2px 2px 5px 2px #888;
 }
 
 /* -- Gallery Page -- */

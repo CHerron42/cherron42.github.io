@@ -7,12 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Sunspotter photography group Preston, Idaho Page mock-up for WDD230">
 		<title>Preston Town Page</title>
-		<link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/small.css">
-        <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<link rel="stylesheet" href="../lesson6/css/normalize.css">
+        <link rel="stylesheet" href="../lesson6/css/small.css">
+        <link rel="stylesheet" href="../lesson6/css/medium.css">
+        <link rel="stylesheet" href="../lesson6/css/large.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="../lesson6/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../lesson6/images/favicon-16x16.png">
 		
 </head>
     
@@ -24,7 +24,7 @@
                 9:00 a.m. Saturday at the city park pavilion.
               </aside>
             <div class="logobox">
-            <img src="images/sunspotter logo.png" id="logo" alt="Sunspotter Logo - Palm trees against a setting sun">
+            <img src="../lesson6/images/sunspotter logo.png" id="logo" alt="Sunspotter Logo - Palm trees against a setting sun">
             <h1 class="logo-header">Sun Spotters</h1>
             <p class="motto">In the right light, at the right time, everything is extraordinary. -- Aaron Rose</p>
         </div>
@@ -35,7 +35,7 @@
                 <button onclick="toggleMenu()">&#9776;</button>
                 <ul id="hamNav" class="hide">
                 <li><a href="../lesson9/index.html">Home</a></li>
-                <li><a class="active" href="preston-6.html">Preston</a></li>
+                <li><a class="active" href="preston-10.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="../lesson8/stormcenter.html">Storm Tracker</a></li>
@@ -47,9 +47,9 @@
        
 	<main>
             <picture class="hero">
-                <source srcset="images/medium-hero.jpg" media="(min-width: 500px) and (max-width: 800px)">
-                    <source srcset="images/stockvault-landscape-in-idaho.jpg" media="(min-width:800px )">
-                    <img  class="hero-image" src="images/small-hero.jpg" alt="Photo of grassland and mountains in Idaho"><br>
+                <source srcset="../lesson6/images/medium-hero.jpg" media="(min-width: 500px) and (max-width: 800px)">
+                    <source srcset="../lesson6/images/stockvault-landscape-in-idaho.jpg" media="(min-width:800px )">
+                    <img  class="hero-image" src="../lesson6/images/small-hero.jpg" alt="Photo of grassland and mountains in Idaho"><br>
                         <div class="page-title">
                         <h2 class="hero-header">Preston, Idaho</h2>
                         <p class="detail">Population: <span id="population">5,176</span></p>
@@ -63,14 +63,13 @@
                 <div class="current">
                     
                     <p>
-                        Conditions: Cloudy<br>
-                        Temperature: <span id="temperature">6</span>℉<br>
+                        Conditions: <span id="cond"></span><br>
+                        Temperature: <span id="temp"></span>℉<br>
                         "Feels Like": <span id="displayWindChill"></span><br>
-                        Probability of Precipatation: 78%<br>
-                        Humidity: 45%<br>
-                        Wind Speed: <span id="windSpeed">23</span> mph<br>
-                        Sunrise: 7:28am<br>
-                        Sunset: 5:54pm<br>
+                        Humidity: <span id="perct_humid"></span><br>
+                        Wind Speed: <span id="speed"></span> mph<br>
+                        Sunrise: <span id="sunrise"></span><br>
+                        Sunset: <span id="sunset"></span><br>
                     </p>
                 </div>
             </div>
@@ -79,18 +78,18 @@
                 
                     <div class="forecast-container">
                         
-                        <div class="forecast-day"><img src="images/sunny-icon.png" alt="sunny weather"></div>
-                        <div class="forecast-day"><img src="images/p-cloudy-icon.png" alt="partly cloudy weather"></div>
-                        <div class="forecast-day"><img src="images/showers-icon.png" alt="rain showers"></div>
-                        <div class="forecast-day"><img src="images/snow-icon.png" alt="snow"></div>
-                        <div class="forecast-day"><img src="images/sunny-icon.png" alt="sunny weather"></div><br>
+                        <div class="forecast-day"><img id="imagesrc1" src="" alt="" id="icon1"></div>
+                        <div class="forecast-day"><img id="imagesrc2" src="" alt="" id="icon2"></div>
+                        <div class="forecast-day"><img id="imagesrc3" src="" alt="" id="icon3"></div>
+                        <div class="forecast-day"><img id="imagesrc4" src="" alt="" id="icon4"></div>
+                        <div class="forecast-day"><img id="imagesrc5" src="" alt="" id="icon5"></div><br>
                     </div>
             </div><br>
             
             <article>
                 <h3>Points of Interest</h3>
                 <hr>
-                <img class="preston-points" src="images/stockvault-beautiful-view192639.jpg" alt="Sunset over Water">
+                <img class="preston-points" src="../lesson6/images/stockvault-beautiful-view192639.jpg" alt="Sunset over Water">
                 <p class="points-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                     tempor incididunt ut labore et dolore magna aliqua. In metus vulputate eu scelerisque felis 
                     imperdiet proin fermentum. Dui accumsan sit amet nulla facilisi morbi tempus iaculis urna. Diam 
@@ -112,9 +111,9 @@
                Anytown, Anywhere 12345<br><br>
                +1 555-555-5555<br><br>
                support@sunspotters.net<br><br>
-               <img class="social" src="images/Insta64.png" alt="Instagram link">
-               <img class="social" src="images/FB64.png" alt="Facebook link">
-               <img class="social" src="images/Twitter64.png" alt="Twitter link">
+               <img class="social" src="../lesson6/images/Insta64.png" alt="Instagram link">
+               <img class="social" src="../lesson6/images/FB64.png" alt="Facebook link">
+               <img class="social" src="../lesson6/images/Twitter64.png" alt="Twitter link">
             </p>
      </div>
             <h4>Acknowledgements</h4>
@@ -134,10 +133,10 @@
       
 
     </footer>
-    <script src="js/datetime.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="../lesson6/js/datetime.js"></script>
+    <script src="../lesson6/js/banner.js"></script>
+    
+    <script src="js/weatherapi.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
