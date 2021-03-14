@@ -149,19 +149,21 @@ main picture.hero {
     margin-top: 5px;
     border-left: 5px solid #FB8300;
 }
-.forecast-day > img {
-    width: 120px;
+.forecast-container {
+    display: grid;
+	padding: 5px;
+	grid-gap: 1rem;
 }
-
-.table {
-    
-}
-.forecast-container > .forecast-day {
-    flex: 1 1 auto;
+.forecast-item {
+    background: #fff;
+    width: 100px;
+    height: 120px;
+    border-radius: 10px;
     border-bottom: 3px solid #FB8300;
-    margin: 23px;
-    align-items: center;
-
+    padding: 5px; 
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 /*-- page articles --*/
 

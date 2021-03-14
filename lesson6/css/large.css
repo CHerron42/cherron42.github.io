@@ -25,6 +25,14 @@
 .hero .hero-image {
 	width: 750px;
 }
+/*-- 5 day forecast --*/
+.forecast-container {
+	padding: 50px;
+}
+.forecast-item {
+	margin: 10px;
+}
+
 /*-- gallery Page --*/
 .gallery {
 	display: grid;

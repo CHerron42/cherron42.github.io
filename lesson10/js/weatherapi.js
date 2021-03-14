@@ -7,7 +7,6 @@ fetch(apiURL)
     document.getElementById('temperature').textContent = Math.round(res.main.temp);
     document.getElementById('humidity').textContent = res.main.humidity;
     document.getElementById('speed').textContent = Math.round(res.wind.speed);
-
     
 
     let temp = parseFloat(document.getElementById("temperature").innerHTML);
@@ -26,6 +25,7 @@ fetch(apiURL)
       document.getElementById("displayWindChill").innerHTML = wc;
     }  
 
+    
 });
 
 
@@ -51,7 +51,7 @@ fetch(URL)
 
         image.setAttribute('src', 'https://openweathermap.org/img/w/' + fiveDays[i].weather[0].icon + '.png');
         day.textContent = dayofWeek[d.getDay()];
-        forecastTemp.textContent =  fiveDays[i].main.temp
+        forecastTemp.textContent = Math.round(fiveDays[i].main.temp);
 
         forecast_item.appendChild(day);
         forecast_item.appendChild(image);

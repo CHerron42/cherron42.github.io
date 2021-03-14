@@ -19,6 +19,10 @@
         float: left;
         z-index: +1;
     } 
+    .preston-header {
+        text-align: left;
+        padding-right: 3rem;
+    }
     
 /*-- Navigation --*/
     nav button {
@@ -47,47 +51,22 @@
         width: 100%;
         font-size: 100%;
     }
- /*-- forecast container --*/   
- table#forecast_table {
-    width: 85%;
-    padding-bottom: 45px;
-  }
-  th,
-  td {
-    border: 1px solid black;
-    text-align: center;
-    color: white;
-  }
 
-  .color_table {
-    background-color: #2a3640;
-  }
- 
-td#dayofweek1 {
-  padding: 1rem;
-}
 
-td#forecast1{
-  padding: 1rem;
-}
-  table.center {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h3.five_day_title {
-    font-size: 1.5rem;
-  }
-
-  #icon1, #icon2, #icon3, #icon4, #icon5 {
-    padding: 15px;
-    width: 100px;
-  }
+/*-- forecast container --*/   
+    .forecast-container {
+        grid-template-columns: repeat(5, 1fr);
+        align-content: center;
+        padding: 25px;
+    }
+    
 /*--article --*/
     .preston-points {
         float: right;
         
     }
+
+   
 /*--gallery page--*/
     .gallery-title {
         font-size: x-large;
