@@ -4,7 +4,7 @@ fetch(apiURL)
   .then((res) => {
     // console.log("return", res);
     document.getElementById('current').textContent = res.weather[0].main;
-    document.getElementById('temperature').textContent = Math.round(res.main.temp);
+    document.getElementById('temperature').textContent = Math.round(res.main.temp) + ' °F';
     document.getElementById('humidity').textContent = res.main.humidity;
     document.getElementById('speed').textContent = Math.round(res.wind.speed);
     
@@ -16,7 +16,7 @@ fetch(apiURL)
       let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
     
       wc = document.getElementById("displayWindChill").innerHTML =
-        Math.round(wc);
+        Math.round(wc) + ' °F';
     } 
     
     else {
