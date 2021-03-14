@@ -153,11 +153,8 @@ main picture.hero {
     width: 120px;
 }
 
-.forecast-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;   
+.table {
+    
 }
 .forecast-container > .forecast-day {
     flex: 1 1 auto;

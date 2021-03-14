@@ -48,13 +48,41 @@
         font-size: 100%;
     }
  /*-- forecast container --*/   
-    .forecast-container {
-        flex-direction: row;
-    }
-    .forecast-container > .forecast-day {
-        justify-content: center;
-        margin: 18px;
-    }
+ table#forecast_table {
+    width: 85%;
+    padding-bottom: 45px;
+  }
+  th,
+  td {
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+  }
+
+  .color_table {
+    background-color: #2a3640;
+  }
+ 
+td#dayofweek1 {
+  padding: 1rem;
+}
+
+td#forecast1{
+  padding: 1rem;
+}
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h3.five_day_title {
+    font-size: 1.5rem;
+  }
+
+  #icon1, #icon2, #icon3, #icon4, #icon5 {
+    padding: 15px;
+    width: 100px;
+  }
 /*--article --*/
     .preston-points {
         float: right;
