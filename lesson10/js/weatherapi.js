@@ -1,86 +1,64 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=00345bb8bc2f7487208d75072ff68c67';
-
-
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=00345bb8bc2f7487208d75072ff68c67';
 fetch(apiURL)
   .then((response) => response.json())
-  .then((jsObject) => {
-    console.log(jsObject);
+  .then((res) => {
+    // console.log("return", res);
+    document.getElementById('current').textContent = res.weather[0].main;
+    document.getElementById('temperature').textContent = Math.round(res.main.temp);
+    document.getElementById('humidity').textContent = res.main.humidity;
+    document.getElementById('speed').textContent = Math.round(res.wind.speed);
 
+    
 
-   document.getElementById("cond").textContent = jsObject.weather[0].main;
-   document.getElementById("temp").textContent = Math.round(
-     jsObject.main.temp
-   );
-   document.getElementById("speed").textContent = Math.round(
-     jsObject.wind.speed
-   );
-   document.getElementById("perct_humid").textContent =
-     jsObject.main.humidity + "%";
-   document.getElementById("rising").textContent = jsObject.sys.sunrise;
-   document.getElementById("setting").textContent = jsObject.sys.sunset;
+    let temp = parseFloat(document.getElementById("temperature").innerHTML);
+    let speed = parseFloat(document.getElementById("speed").innerHTML);
+     
+    if (temp <= 50 && speed > 3) {
+      let wc = 35.74 + 0.6215 * temp - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
+    
+      wc = document.getElementById("displayWindChill").innerHTML =
+        Math.round(wc);
+    } 
+    
+    else {
+      wc = "N/A";
 
+      document.getElementById("displayWindChill").innerHTML = wc;
+    }  
 
-
-    let t = jsObject.main.temp;
-    let w = jsObject.wind.speed;
-
-       
-        if (t <= 50 && w >= 3) {
-
-            let windChillFactor = 35.74 + 
-                                  0.6215 * t - 
-                                  35.75 * w ** 
-                                  0.16 + 0.4275 * 
-                                  t * w ** 0.16;
-
-              windChillFactor = document.getElementById("displayWindChill").innerHTML =
-                                  Math.round(windChillFactor) + "&deg; " + "F";
-                
-            } else {
-                windChillFactor = "n/a";
-                document.getElementById('displayWindChill').innerHTML = windChillFactor;
-            }
 });
 
 
-    // List the URL of the API forecast data
-const apiforecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=00345bb8bc2f7487208d75072ff68c67";
 
-// As before, fetch the forecast data, create the JSON object, console log to make sure it worked.
 
-fetch(apiforecastURL)
+const URL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=00345bb8bc2f7487208d75072ff68c67';
+fetch(URL)
   .then((response) => response.json())
-  .then((jsObject) => {
-
-    // Create an array with day names to use for five day forecast
-    const dayName = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-
-    // Filter the jsObject to only show data from 6:00 pm (18:00:00)
-    const thefive = jsObject.list.filter((element) =>
+  .then((res) => {
+    const dayofWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+    const fiveDays = res.list.filter((element) =>
       element.dt_txt.includes("18:00:00")
     );
 
-    // Use a "for" loop to loop through the data and fill the table
-    let day = 0;
-    let i = 0;
+    for (let i = 0; i < fiveDays.length; i++ ) {
+        let d = new Date(fiveDays[i].dt_txt);
+        let forecast_item = document.createElement('div');
+        let day = document.createElement('div');
+        let image =document.createElement('img');
+        let forecastTemp = document.createElement('div');
 
-    for (i = 0; i < thefive.length; i++) {
-      let d = new Date(thefive[i].dt_txt); //date object to get date
+        forecast_item.classList.add("forecast-item");
 
-      //write day name using array built earlier
-      document.getElementById("dayofweek" + (day + 1)).textContent = dayName[d.getDay()];
+        image.setAttribute('src', 'https://openweathermap.org/img/w/' + fiveDays[i].weather[0].icon + '.png');
+        day.textContent = dayofWeek[d.getDay()];
+        forecastTemp.textContent =  fiveDays[i].main.temp
 
-      // write temperature data. Use Math.round to make it a whole number.
-      document.getElementById("forecast" + (day + 1)).textContent = Math.round(thefive[day].main.temp) + ' °F'
+        forecast_item.appendChild(day);
+        forecast_item.appendChild(image);
+        forecast_item.appendChild(forecastTemp);
+ 
 
-      // give the browser the icon address
-      var imagesrc = "https://openweathermap.org/img/w/" + thefive[day].weather[0].icon + ".png";
-
-      // populate table with icons, set alt attribute using weather description from the object
-      document.getElementById("imagesrc" + (day + 1)).textContent = imagesrc;
-      document.getElementById("icon" + (day + 1)).setAttribute("src", imagesrc);
-      document.getElementById("icon" + (day + 1)).setAttribute("alt", thefive[0].weather[0].description);
-
-      day++;
-    }
-  });
+        document.querySelector('div.forecast-container').appendChild(forecast_item);
+    } 
+    
+  })
