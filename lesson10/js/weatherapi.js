@@ -1,10 +1,11 @@
-const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=00345bb8bc2f7487208d75072ff68c67';
+const apiURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=00345bb8bc2f7487208d75072ff68c67';
 
 
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+
 
    document.getElementById("cond").textContent = jsObject.weather[0].main;
    document.getElementById("temp").textContent = Math.round(
