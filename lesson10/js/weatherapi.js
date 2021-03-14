@@ -51,7 +51,7 @@ fetch(URL)
 
         image.setAttribute('src', 'https://openweathermap.org/img/w/' + fiveDays[i].weather[0].icon + '.png');
         day.textContent = dayofWeek[d.getDay()];
-        forecastTemp.textContent = Math.round(fiveDays[i].main.temp) + ' °F';
+        forecastTemp.textContent = Math.round(fiveDays[i].main.temp_max) + ' °F';
 
         forecast_item.appendChild(day);
         forecast_item.appendChild(image);
