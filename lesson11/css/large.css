@@ -1,0 +1,86 @@
+/*css for desktop screen*/
+
+@media only screen and (min-width: 60em) {
+/*--Header & Font Info --*/
+    h1 {
+        font-size: 45px;
+    }
+	header {
+		flex-direction: row;
+		justify-content: center;
+	}
+/*-- Banner Announcement --*/
+	#pancakes.announcement {
+		position: relative;
+		width: 100%;
+		padding: .5rem;
+		
+	  }
+/*-- Navigation --*/
+	nav a {
+		font-size: 1.1rem;
+	}
+/*-- hero Image Title --*/
+	
+.hero .hero-image {
+	width: 750px;
+}
+/*-- 5 day forecast --*/
+.forecast-container {
+	padding: 50px;
+}
+.forecast-item {
+	margin: 10px;
+}
+
+/*-- gallery Page --*/
+.gallery {
+	display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2px;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+	
+}
+figure img {
+	max-width: 100%;
+}
+/*-- Storm Tracker Form --*/
+form label.sbs {
+	padding: .4rem 0;
+}
+/*--homepage card Section--*/
+div.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	grid-gap: 20px;
+	text-align: center;
+	margin: 20px auto;
+  }
+  section {
+	  display: grid;
+	  grid-template-columns: 1fr;
+	  border: 1px solid rgb(124, 124, 124);
+	  text-align: center;
+	  
+  }
+  .cards img {
+	  align-content: center;
+  }
+  section img {
+	height: 160px;
+  }
+footer {
+	height: 30rem;
+}
+
+	
+/*--Contact Info Section --*/
+	.social {
+        width: 35px;
+    }
+ 
+	  
+}
