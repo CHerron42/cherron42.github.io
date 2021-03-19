@@ -51,14 +51,38 @@
         width: 100%;
         font-size: 100%;
     }
+/*-- Current Forecast --*/
+.current {
+    margin-left: 35px;
+}
+/*-- Current Events -- */
+.current-events {
+    margin-left: 60px;
+}
 
 
 /*-- forecast container --*/   
-    .forecast-container {
-        grid-template-columns: repeat(5, 1fr);
-        align-content: center;
-        padding: 25px;
+    h3.forecast-header {
+        display: block;
+        float: left;
     }
+    .forecast-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        float: left;
+        padding: 35px;
+    }
+    .forecast-item {
+        background: #fff;
+        width: 100px;
+        height: 120px;
+        border-bottom: 3px solid #FB8300;
+        padding: 5px; 
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+    }
+
     
 /*--article --*/
     .preston-points {

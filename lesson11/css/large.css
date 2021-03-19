@@ -25,6 +25,10 @@
 .hero .hero-image {
 	width: 750px;
 }
+/*--current events info --*/
+/*.current-events {
+	margin-left: 75px;
+}*/
 /*-- 5 day forecast --*/
 .forecast-container {
 	padding: 50px;
