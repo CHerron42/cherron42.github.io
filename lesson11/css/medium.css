@@ -124,25 +124,7 @@
   }
 /*--homepage card section--*/
 
-    section .cards {
-        margin: .5rem auto;
-        border: 1px solid #bbb;
-        background-color: #eee;
-        display: flex;
-        flex-wrap: wrap;
-        
-   }
-    section {
-        display: flex;
-        flex-direction: row;
-        max-width: 600px;
-        margin: .5rem auto;
-       
-        
-  }
-    section:nth-child(odd) {
-        flex-direction: row-reverse;
-  }
+   
 /* Contact Info Section */
    .contact {
         float: right;
