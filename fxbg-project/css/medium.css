@@ -1,0 +1,99 @@
+/*css for tablet view*/
+
+@media only screen and (min-width: 32.5em) {
+    header,
+    main,
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    
+    
+   
+
+    /*-- Navigation --*/
+
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+    
+    .navigation {
+		display: flex;
+	}
+	.navigation li {
+		
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+        padding: 35px 25px ;
+	}
+   
+    nav a {
+        font-size: medium;
+        padding: .8rem 1rem;
+        }
+
+   /* -- hero image --*/
+   
+    .hero-image {
+        
+        background-color: #cccccc;
+        height: 450px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+/*--Information Article --*/
+      
+    .info-photo {
+        float: left;
+        width: 250px; 
+        margin-top: 45px;
+    }
+    .info-article {
+        padding: 65px;
+    }
+/*-- current events --*/
+    .events-photo {
+        margin-top: -65px;
+    }
+
+/*-- Featured Businesses --*/
+    .card-area {
+      
+        flex-direction: row;
+        justify-content: center;
+        padding: 25px;
+    }
+    .featuredCard {
+        margin: 0px 15px;
+    }
+    
+    
+/*-- Footer --*/
+    footer {
+        height: 25rem;
+    }
+   footer .contact { 
+        text-align: left;
+        height: 15rem;
+        /*padding: 175px;*/
+    }
+
+
+    /* Contact Info Section 
+    .contact{
+        float: right;
+        margin-right: 75px;
+        margin-top: -210px;
+
+    }*/
+
+    
+}

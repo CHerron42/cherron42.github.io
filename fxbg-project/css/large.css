@@ -1,0 +1,99 @@
+/*css for desktop screen*/
+
+@media only screen and (min-width: 60em) {
+   
+
+    /*-- Navigation --*/
+	
+
+    #logo {
+        width: 275px;
+    }
+    nav ul li a {
+		font-size: 100%;
+        
+	}
+    
+
+    .hero-image {
+        
+        background-color: #cccccc;
+        height: 550px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+      
+    .page-title {
+        padding: 25px;
+        letter-spacing: 2px;
+    }
+    .info-photo {
+        float: left;
+        margin-top: 20px;
+    }
+    .info-article {
+        padding: 100px;
+    }
+    /*--extended forecast --*/
+    /*.forecast-container {
+        padding: 50px;
+    }
+    .forecast-item {
+        margin: 10px;
+    }*/
+    /*--current events--*/
+    div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        grid-gap: 20px;
+        text-align: center;
+        margin: 20px auto;
+      }
+      section {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 1px solid rgb(124, 124, 124);
+        text-align: center;
+        
+    }
+    .cards img {
+        align-content: center;
+    }
+    section img {
+      height: 160px;
+    }
+   .events-photo {
+     height: 400px;
+   }
+   
+  
+   .current-events {
+     margin-bottom: 20px;
+     padding: 75px 30px;
+   }
+
+    /*-- Featured Business --*/
+    
+    .featuredCard {
+      padding-bottom: 5px;
+      margin: 0 auto;
+    }
+    .featuredCard-image {
+      width: 100%;
+    }
+
+      /*-- Footer Section--*/
+    .location-Map {
+        padding: -75vw;
+          
+      }
+      /*--Contact Info Section --*/
+      .social {
+          width: 35px;
+      }
+
+    
+}

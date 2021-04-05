@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Connie M. Herron">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Fredericksburg, VA Local Small Business Group Mock-up">
+		<title>Fredericksburg, VA Local Small Business Group</title>
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <!-- <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type=image/png" sizes="16x16" href="images/favicon-16x16.png"> -->
+		
+</head>
+    
+<body>
+    <div id="content">
+        <header>
+            <div class="logobox">
+                <a href="index.html"><img src="images/fredericksburg_logo.png" id="logo" alt="Fredericksburg, VA mockup site logo"></a>
+           
+            
+        </div>
+        <nav class="navigation">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="hamNav" class="hide">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="fredericksburg.html">Our Town</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="join.html">Join</a></li>
+            
+            
+            </ul>
+       
+        </header>
+
+       
+    
+       
+	<main>
+       
+        </nav>
+          
+        <!--Hero Image -->
+
+        <picture class="hero">
+
+            <img  class="hero-image" src="images/fredericksburg-hero.jpg" alt="Downtown Fredericksburg, VA mural that says, Fredericksburg, estabished 1728.><br>
+            
+            <div class "hero-text">
+            <h2 class="page-title">Fredericksburg Local Small Business Group</h2>
+            </div>      
+            
+        </picture>
+       
+        <!-- 3 day Forecast
+        <div class="extended">
+           <h3 class="forecast-header">Extended 3 day Forecast</h3><br>
+            
+                <div class="forecast-container">
+                   
+                </div>
+        </div><br>-->
+        <!-- Info Article -->
+        <article>
+            <hr>
+           
+            <h3 class="info-heading">Who Are We?</h3>
+            
+            <img class="info-photo" src="images/downtown-fredericksburg.jpg" alt="historic downtown Fredericksburg, VA">
+            <p class="info-article">We are an active group of local small business working together to help Fredericksburg, Virginia have a thriving active community.  We love our city and want it to be a place where people live, work and enjoy being together.  We support each other when things are difficult through various crossover events that draw customers into Downtown Fredericksburg and bring traffic to each of our businesses.  We believe we all grow be helping each other to grow.</p>
+        </article>
+        <hr>
+         <!-- Upcoming Events -->
+       
+         <div class="event">
+            <h3 class="upcoming-events">Upcoming Events</h3><br>
+            <img class="events-photo" src="images/carriage_ride.jpg" alt="Photo of the Horse from the Carriage ride in downtown Fredericksburg wearing bunny ears at Easter time">
+            <div class="current-events"> </div>
+
+            
+        </div><br>
+
+        
+        
+        
+
+       
+        <!-- Featured Businesses -->
+        <section class="card-area">
+            <h3 class="featured-header">Featured Businesses</h3>
+                <article class="featuredCard"><img class="featuredCard-image" src="images/benny-vitalis.jpg">
+			        <p><a href="https://www.bennysva.com/locations/benny-vitalis/">Benny Vitali's</a></p>
+                </article>
+                <article class="featuredCard"><img class="featuredCard-image" src="images/carls.jpg">
+			        <p><a href="http://carlsfrozencustard.com/">Carl's Frozen Custard</a></p>
+                </article>
+                <article class="featuredCard"><img class="featuredCard-image" src="images/juan-more-taco.jpg">
+			        <p><a href="https://juanmoreplease.com/">Juan More Taco</a></p>
+                </article>
+        </section>
+  
+			
+	</main>
+ 
+  <!-- Footer -->
+	<footer>
+
+        <div class="contact">
+            <h4>Contact Info</h4>
+            <p>FXBG Local Small Business Group<br>
+               0000 Caroline St.<br>
+               Fredericksburg, VA 22401<br><br>
+               +1 555-555-5555<br><br>
+               support@fxbgsbg.com<br><br>
+              
+               <img class="social" src="images/Insta64.png" alt="Instagram link">
+              
+               <img class="social" src="images/FB64.png" alt="Facebook link">
+               
+               <img class="social" src="images/Twitter64.png" alt="Twitter link">
+              
+            </p>
+            </div>
+        <h4>Acknowledgements</h4>
+        
+        
+        <p class="tag-line">&copy;<span id="currentYear"></span> | <a href ="https://cherron42.github.io">Connie Herron - Virginia</a> | 
+        <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a> <br>
+        <span id="currentDate"></span> <br></p>
+       <p> Weather Forecast Info: <a href ="https://openweathermap.org/">Open Weather Map</a><br></p>
+
+        <!-- Current Weather -->
+        
+        <div class="current">
+            <h4>Current Weather</h4>
+                    
+            <p>
+                Conditions: <span id="current"></span><br>
+                Temperature: <span id="temperature"></span><br>
+                "Feels Like": <span id="displayWindChill"></span><br>
+                Humidity: <span id="humidity"></span>%<br>
+                Wind Speed: <span id="speed"></span> mph<br>
+            </p>
+        </div>
+        
+      
+<!-- Javascripts -->
+    </footer>
+    <script src="js/datetime.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/imagehandling.js"></script>
+    <!--<script src="js/weatherapi.js"></script>-->
+    <script src="js/eventdata.js"></script>
+    <script src="js/featureddata.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+        google: {
+          families: [ "Alegreya SC", "Montserrat" ]
+        }
+      });
+    </script>
+</body>
+
+</html>
