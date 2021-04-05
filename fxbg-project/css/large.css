@@ -14,7 +14,7 @@
         
 	}
     
-
+/*-- Hero Image --*/
     .hero-image {
         
         background-color: #cccccc;
@@ -24,11 +24,18 @@
         background-size: cover;
         position: relative;
       }
+/*-- Call to Action --*/
+    .join-action {
+      bottom: 3%;
+      padding: 15px 32px;
+      font-size: 18px;
+    }
       
     .page-title {
         padding: 25px;
         letter-spacing: 2px;
     }
+/* -- Information Article --*/
     .info-photo {
         float: left;
         margin-top: 20px;
@@ -80,6 +87,7 @@
     .featuredCard {
       padding-bottom: 5px;
       margin: 0 auto;
+      font-size: 88%;
     }
     .featuredCard-image {
       width: 100%;

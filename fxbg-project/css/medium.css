@@ -49,6 +49,14 @@
         background-size: cover;
         position: relative;
       }
+/*-- Call to Action --*/
+    .join-action {
+        
+        font-size: 16px;
+        position: absolute;
+        bottom: 40%;
+        
+}
 /*--Information Article --*/
       
     .info-photo {
@@ -57,10 +65,13 @@
         margin-top: 45px;
     }
     .info-article {
+       
         padding: 65px;
     }
 /*-- current events --*/
+    
     .events-photo {
+        clear: auto;
         margin-top: -65px;
     }
 
@@ -73,6 +84,7 @@
     }
     .featuredCard {
         margin: 0px 15px;
+        font-weight: bold;
     }
     
     

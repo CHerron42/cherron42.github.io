@@ -94,6 +94,37 @@ nav ul.hide {
     max-width: 100%;
   }
   
+
+
+
+/*-- Call to Action --*/
+.join-action {
+     
+    background-color: #225f6b;
+    border: none;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1px;;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    bottom: 60%;
+    right: 3%;
+    z-index: 1;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+          
+    }
+
+.join-action:hover {
+          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
 .page-title {
     letter-spacing: 2px;
     text-align: center;
@@ -102,8 +133,7 @@ nav ul.hide {
     content: "";
     display: table;
     clear: both;
-  }
-
+}
 
 /*-- page articles --*/
 
@@ -123,6 +153,7 @@ nav ul.hide {
      width: 175px; 
      float: right;
      margin: 1.5rem;
+     border-radius: 3px;
      box-shadow: 2px 2px 5px 2px #888;
     
  }
@@ -132,7 +163,7 @@ nav ul.hide {
     float: right;
     height: 250px;
     margin: 1.5rem;
-   
+    border-radius: 3px;
     box-shadow: 2px 2px 5px 2px #888;
 
 }
@@ -178,6 +209,7 @@ nav ul.hide {
 /*-- Featured Businesses --*/
 .featured-header {
     margin-left: -5px;
+
 }
 .card-area {
     display: flex;
@@ -198,6 +230,9 @@ nav ul.hide {
     border-radius: 3px;
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 78%;
+    letter-spacing: .5px;
     color: #464646;
     padding-bottom: 5px;
     font-variant: small-caps;
@@ -218,6 +253,7 @@ nav ul.hide {
   .paragraph-1 {
     padding: 5px 25px;
   }
+  
   
 
 /*-- footer --*/
