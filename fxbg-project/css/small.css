@@ -45,7 +45,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: #284011;
+    color: #225f6b;
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -59,7 +59,7 @@ nav ul {
 }
 nav ul li a {
 	display: block;
-	color: #284011;
+	color: #225f6b;
 	text-align: left;
     padding: 0.8rem 2%;
 	text-decoration: none;
@@ -100,7 +100,7 @@ nav ul.hide {
 /*-- Call to Action --*/
 .join-action {
      
-    background-color: #284011;
+    background-color: #225f6b;
     border: none;
     color: #ffffff;
     padding: 8px 12px;
