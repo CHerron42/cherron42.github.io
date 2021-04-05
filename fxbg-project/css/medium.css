@@ -72,7 +72,8 @@
     
     .events-photo {
         clear: auto;
-        margin-top: -65px;
+        width: 250px;
+        margin-top: 25px;
     }
 
 /*-- Featured Businesses --*/
@@ -86,6 +87,17 @@
         margin: 0px 15px;
         font-weight: bold;
     }
+/*--Membership Form --*/
+.business-form {
+   font-size: x-large;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445;
+    border-radius: 5px;
+    padding: .5rem 2%;
+    max-width: 900px;
+  }
     
     
 /*-- Footer --*/

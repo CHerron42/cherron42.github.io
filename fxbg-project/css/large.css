@@ -38,6 +38,7 @@
 /* -- Information Article --*/
     .info-photo {
         float: left;
+        
         margin-top: 20px;
     }
     .info-article {
@@ -72,14 +73,15 @@
     section img {
       height: 160px;
     }
-   .events-photo {
-     height: 400px;
-   }
+   
    
   
    .current-events {
      margin-bottom: 20px;
      padding: 75px 30px;
+   }
+   .events-photo {
+     width: 300px;
    }
 
     /*-- Featured Business --*/
@@ -92,6 +94,10 @@
     .featuredCard-image {
       width: 100%;
     }
+    /*-- Business Form --*/
+    .business-form {
+      text-align: left;
+  }
 
       /*-- Footer Section--*/
     .location-Map {

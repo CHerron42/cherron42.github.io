@@ -59,13 +59,50 @@
         <article>
             <hr>
            
-            <h3 class="info-heading">Who Are We?</h3>
+            <h3 class="info-heading">Benefits of Joining</h3>
             
-            <img class="info-photo" src="images/downtown-fredericksburg.jpg" alt="historic downtown Fredericksburg, VA">
+            <img class="info-photo" src="images/sammyts2.jpg" alt="Looking down Caroline St. towards Sammy T's restaurant in Fredericksburg, VA">
             <p class="info-article">We are an active group of local small business working together to help Fredericksburg, Virginia have a thriving active community.  We love our city and want it to be a place where people live, work and enjoy being together.  We support each other when things are difficult through various crossover events that draw customers into Downtown Fredericksburg and bring traffic to each of our businesses.  We believe we all grow be helping each other to grow.</p>
         </article>
-        
-        <div class="cards"> </div>
+
+        <section class="business-form">
+        <form name="businessCenter" method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                    <label class="top">*First Name<input type="text" name="fname" required></label>
+                    <label class="top">*Last Name<input type="text" name="lname" required></label>
+                    <label class="top">Title<input type="text" name="title"></label>
+                    <label class="top">*Email<input type="email" name="email" placeholder="somemail@gmail.com" required></label>
+                    <label class="top">Cell Phone Number<input type="tel" name="phone" placeholder="1231231234"></label>
+                    <label class="top">*Business Name<input type="text" name="bname" required></label>
+                    <label class="top">Business Address<input type="text" name="baddress"></label>
+                    <label class="top">Business Website<input type="url" name="bsite"></label>
+                    <div>Business Description </div>
+                        <label class="top">
+                    <textarea name="description" rows="5" cols="50"></textarea>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Levels</legend>
+                
+                    <div class="membership">
+                    <input type="checkbox" name="level4" value="Gold">
+                    <label class="level"> Gold Level: $1000: </label><br>
+                    <input type="checkbox" name="level3" value="Silver">
+                    <label class="level"> Silver Level: $400</label><br>
+                    <input type="checkbox" name="level2" value="Bronze">
+                    <label class="level"> Bronze Level: $200</label><br>
+                    <input type="checkbox" name="level1" value="Non-profit">
+                    <label class="level"> Non-Profit: $100</label>
+                    </div>
+                
+            </fieldset>
+            <div id="submitBtn">
+              <input type="submit" name="submit" class="submitBtn" value="Send">
+            </div>
+        </form>
+        </section>
+
   
 			
 	</main>
@@ -105,7 +142,6 @@
     <script src="js/datetime.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/imagehandling.js"></script>
-    <script src="js/towndata.js"></script>"
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
