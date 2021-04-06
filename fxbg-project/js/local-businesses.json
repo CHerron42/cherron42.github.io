@@ -1,0 +1,51 @@
+{
+    "Business": [
+        {
+            "name": "Benny Vitali's",
+            "photo": "images/bennyvitalis.jpg",
+            "address": "722 Caroline St.",
+            "website": "https://www.bennysva.com/locations/benny-vitalis/"
+
+        },
+        {
+            "name":"Carl's Frozen Custard",
+            "photo": "images/carls.jpg",
+            "address": "2200 Princess Anne St.",
+            "website": "https://carlsfrozencustard.com"
+
+        },
+        {
+            "name": "Freedom Society Tea + Gifts",
+            "photo": "images/freedomsociety.jpg",
+            "address": "1015 Caroline St.",
+            "website": "https://freedomsocietyfxbg.com/"
+
+        },
+        {
+            "name": "Goolrick's Pharmacy & Soda Fountain",
+            "photo": "images/goolrickspharmacy.jpg",
+            "address": "901 Caroline St.",
+            "website": "https://goolrickspharmacy.com/"
+
+        },
+        {
+            "name": "Juan More Taco",
+            "photo": "images/juanmoretaco.jpg",
+            "address": "826 Caroline St.",
+            "website": "https://juanmoreplease.com/"
+        },
+        {
+            "name": "Monkee's",
+            "photo": "images/monkees.jpg",
+            "address": "827 Caroline St.",
+            "website": "https://fredmonkees.com/"
+        },
+        {
+            "name": "Riverby Books",
+            "photo": "images/riverbybooks.jpg",
+            "address": "827 Caroline St.",
+            "website": "https://www.riverbybooks.com/"
+        }
+        
+    ]
+}
