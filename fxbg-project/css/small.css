@@ -149,7 +149,7 @@ nav ul.hide {
      padding: 20px;
      margin-top: 5px;
  }
- .info-photo {
+ .info-photo , .contact-photo{
      width: 175px; 
      float: right;
      margin: 1.5rem;
@@ -175,6 +175,10 @@ nav ul.hide {
     
     
 }
+.contact-article {
+    padding: 5px;
+}
+
 
 
  /*-- extended forecast--*/
@@ -260,9 +264,9 @@ nav ul.hide {
 }
   
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-/*--Membership Form --*/
-.business-form {
+/* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }*/
+/*-- Forms --*/
+.business-form, .contact-form {
     display: block;
     padding: 1rem;
 }
@@ -311,11 +315,7 @@ fieldset {
     background-color: rgba(0, 0, 0, 0.1);
   }
   
-  /*form label.level {
-    display: block;
-    padding: .75rem;
-    color: #555;
-  }*/
+ 
   form input.submitBtn {
     border: none;
     background-color: #032538;
@@ -337,23 +337,60 @@ fieldset {
   textarea {
     max-width: 70%;
     padding: .55rem;
+    border: solid 1px #999;
+    background-color: rgba(0, 0, 0, 0.1);
   }
+
+  .cardDirectory {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    
+         
+}
+
+section {
+    
+    display: block;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #888;
+    
+}
+
+section img {
+    
+    height: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+p {
+    font-size: small;
+    font-weight: bold;
+    padding-left: .5rem;
+}
 
 /*-- footer --*/
 
 footer {
     flex: 1 1 auto;
-    height: 35rem;
+    height: 38rem;
     font-size: 85%;
     background-color: #dcd1bc;
     flex-flow: column;
     color: #000;
-    padding: 2vw;
+    padding: 3vw;
 }
 
 
 footer a {
-    color: #284011;
+    color: #225f6b;
     text-decoration: none;
 }
 footer a:visited {
@@ -369,6 +406,9 @@ footer .tagline {
 }
 .social {
     width: 30px;
+}
+.acknowledgments {
+    padding-bottom: 20px;
 }
 
     
