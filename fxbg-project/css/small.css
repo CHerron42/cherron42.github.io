@@ -340,6 +340,11 @@ fieldset {
     border: solid 1px #999;
     background-color: rgba(0, 0, 0, 0.1);
   }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
   /*--Directory of Businesses --*/
 
   .cardDirectory {
@@ -351,7 +356,7 @@ fieldset {
          
 }
 
-section {
+section .cardDirectory{
     
     display: block;
     margin: auto;

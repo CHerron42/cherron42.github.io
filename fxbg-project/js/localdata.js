@@ -9,7 +9,7 @@ fetch(requestURL)
     for (let i = 0; i < business.length; i++ ) {
 let card = document.createElement('section');
 let image =document.createElement('img');
-let h2 = document.createElement('h2');
+let h3 = document.createElement('h3');
 let streetAddress = document.createElement('p');
 let siteAddress = document.createElement('p');
 
@@ -17,12 +17,12 @@ let siteAddress = document.createElement('p');
 
 image.setAttribute('src', business[i].photo);
 image.setAttribute('alt', business[i].name);
-h2.textContent = business[i].name;
+h3.textContent = business[i].name;
 streetAddress.textContent = 'Street Address:' + ' ' + business[i].address;
 siteAddress.textContent = 'Website:' + ' ' + business[i].website;
 
 
-card.appendChild(h2);
+card.appendChild(h3);
 card.appendChild(streetAddress);
 card.appendChild(siteAddress);
 card.appendChild(image);
