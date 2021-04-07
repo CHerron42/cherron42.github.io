@@ -59,7 +59,7 @@
 }
 /*--Information Article --*/
       
-    .info-photo {
+    .info-photo, .contact-photo {
         float: left;
         width: 250px; 
         margin-top: 45px;
@@ -67,6 +67,9 @@
     .info-article {
        
         padding: 65px;
+    }
+    .contact-article {
+        padding-top: 45px;
     }
 /*-- current events --*/
     
@@ -87,8 +90,8 @@
         margin: 0px 15px;
         font-weight: bold;
     }
-/*--Membership Form --*/
-.business-form {
+/*-- Forms --*/
+.business-form, .contact-form {
    font-size: x-large;
 }
 form fieldset {
@@ -98,6 +101,12 @@ form fieldset {
     padding: .5rem 2%;
     max-width: 900px;
   }
+/* -- Business Directory --*/
+.cardDirectory {
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+    grid-gap: 1.5rem;
+    }
     
     
 /*-- Footer --*/

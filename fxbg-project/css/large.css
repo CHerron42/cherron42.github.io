@@ -52,28 +52,6 @@
         margin: 10px;
     }*/
     /*--current events--*/
-    div.cards{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: center;
-        grid-gap: 20px;
-        text-align: center;
-        margin: 20px auto;
-      }
-      section {
-        display: grid;
-        grid-template-columns: 1fr;
-        border: 1px solid rgb(124, 124, 124);
-        text-align: center;
-        
-    }
-    .cards img {
-        align-content: center;
-    }
-    section img {
-      height: 160px;
-    }
-   
    
   
    .current-events {
@@ -82,7 +60,14 @@
    }
    .events-photo {
      width: 300px;
+     
    }
+   .contact-photo {
+    width: 475px;
+  }
+  .contact-article {
+    padding: 20px;
+  }
 
     /*-- Featured Business --*/
     
@@ -94,10 +79,17 @@
     .featuredCard-image {
       width: 100%;
     }
-    /*-- Business Form --*/
-    .business-form {
+    /*-- Forms --*/
+    .business-form, .contact-form {
       text-align: left;
   }
+
+  /*-- Business Directory --*/
+    .cardDirectory {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 20px;
+}
 
       /*-- Footer Section--*/
     .location-Map {

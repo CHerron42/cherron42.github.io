@@ -31,25 +31,55 @@
             <li><a href="directory.html">Directory</a></li>
             <li><a class="active" href="contact.html">Contact Us</a></li>
             <li><a href="join.html">Join</a></li>          
-            </ul>       
+            </ul> 
+        </nav>      
         </header>      
 	<main>      
-        </nav>
+        
 
         <picture class="hero">
             <a target="_blank" href="join.html"><button class="join-action">Click to Join</button></a>
-            <img  class="hero-image" src="images/downtown_fxbg.jpg" alt="Photo of looking down the street in downtown Fredericksburg, Virginia<br>       
-            <div class "hero-text">
+            <img  class="hero-image" src="images/downtown_fxbg.jpg" alt="Photo of looking down the street in downtown Fredericksburg, Virginia"><br>       
+            <div class="hero-text">
             <h2 class="page-title">Fredericksburg Local Small Business Group</h2>
             </div>              
         </picture>
         <article>
-            <hr>     
-            <h3 class="info-heading">Contact Us</h3>
+                 
+            <h3 class="info-heading">How to Reach Us</h3>
             
-            <img class="info-photo" src="images/downtown-fredericksburg.jpg" alt="historic downtown Fredericksburg, VA">
-            <p class="info-article">We are an active group of local small business working together to help Fredericksburg, Virginia have a thriving active community.  We love our city and want it to be a place where people live, work and enjoy being together.  We support each other when things are difficult through various crossover events that draw customers into Downtown Fredericksburg and bring traffic to each of our businesses.  We believe we all grow be helping each other to grow.</p>
+            <img class="contact-photo" src="images/hugh_mercer_home.jpg" alt="Hugh Mercer Apothocary">
+            <p class="contact-article">We can be contacted by:<br>
+
+
+                Fredericksburg Local Small Business Group<br>
+                0000 Caroline St.<br>
+                Fredericksburg, VA 22401<br><br>
+                +1 555-555-5555<br><br>
+                support@fxbgsbg.com<br><br>
+                
+                You may also use the form to contact us if you have any questions.  </p>
         </article>
+        <section class="contact-form">
+        <form name="businessCenter" method="GET" action="thanks.html">
+            <fieldset>
+                <legend>Contact Us</legend>
+                    <label class="top">*First Name<input type="text" name="fname" required></label>
+                    <label class="top">*Last Name<input type="text" name="lname" required></label>
+                    <label class="top">Title<input type="text" name="title"></label>
+                    <label class="top">*Email<input type="email" name="email" placeholder="somemail@gmail.com" required></label>
+                    <label class="top">Phone Number<input type="tel" name="phone" placeholder="1231231234"></label>
+                    
+                    <div>Comments </div>
+                        <label class="top">
+                    <textarea name="description" rows="5" cols="50"></textarea>
+                </label>
+            </fieldset>
+                <div id="submitBtn">
+                    <input type="submit" name="submit" class="submitBtn" value="Send">
+                </div>
+            </form>
+            </section>
 
   
 			
