@@ -4,7 +4,6 @@
    
 
     /*-- Navigation --*/
-	
 
     #logo {
         width: 275px;
@@ -45,23 +44,34 @@
         padding: 100px;
     }
     /*--extended forecast --*/
-    /*.forecast-container {
-        padding: 50px;
+    .forecast-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
     }
     .forecast-item {
         margin: 10px;
-    }*/
-    /*--current events--*/
+    }
    
-  
+    /*--current events--*/
+    
    .current-events {
-     margin-bottom: 20px;
-     padding: 75px 30px;
+     width: 100%;
+     padding: 20px 4vw;
+      
    }
    .events-photo {
-     width: 300px;
+    width: 250px;
+    margin: 1vw;
+   
      
    }
+/*--Thank you --*/
+   .thanks-photo {
+     width: 250px;
+   }
+/*-- Contact Us Page--*/
    .contact-photo {
     width: 475px;
   }
@@ -73,7 +83,7 @@
     
     .featuredCard {
       padding-bottom: 5px;
-      margin: 0 auto;
+     /* margin: 0 auto;*/
       font-size: 88%;
     }
     .featuredCard-image {

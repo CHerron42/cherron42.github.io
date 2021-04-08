@@ -7,12 +7,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Fredericksburg, VA Local Small Business Group Mock-up">
 		<title>Fredericksburg, VA Local Small Business Group Directory</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small.css">
         <link rel="stylesheet" href="css/medium.css">
         <link rel="stylesheet" href="css/large.css">
-        <!-- <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-        <link rel="icon" type=image/png" sizes="16x16" href="images/favicon-16x16.png"> -->
+        
 		
 </head>
     
@@ -37,16 +37,9 @@
             </ul>
         </nav>
         </header>
-
-       
-    
-       
+     
 	<main>
-       
-        
-          
-        
-
+  
         <picture class="hero">
             <a target="_blank" href="join.html"><button class="join-action">Click to Join</button></a>
             <img  class="hero-image" src="images/sammy_ts.jpg" alt="Fredericksburg, VA mural on Sammy T's restaurant with people sitting at a table that says."><br>
@@ -62,16 +55,15 @@
             <h3 class="info-heading">Directory of Businesses</h3>
             
             <img class="info-photo" src="images/caroline-street.jpg" alt="historic downtown Fredericksburg, VA">
-            <p class="info-article">We are an active group of local small business working together to help Fredericksburg, Virginia have a thriving active community.  We love our city and want it to be a place where people live, work and enjoy being together.  We support each other when things are difficult through various crossover events that draw customers into Downtown Fredericksburg and bring traffic to each of our businesses.  We believe we all grow be helping each other to grow.</p>
+            <p class="info-article">Below is the current list of our members and their information.  Some businesses have been here for generations.  Others started with a more recent vision in mind.  sWe would love to have you as part of the growing team of downtown businesses.  You can find information about what we would do to help your brand grow as a part of that partnership <a href="join.html"><b>HERE</b></a>.</p>
         </article>
     
-        
+        <div class="row">
         <div class="cardDirectory"> </div>
-  
+        </div>
 			
 	</main>
  
-  
 	<footer>
          <!-- Contact -->
          <div class="contact">
@@ -97,17 +89,17 @@
             <h4>Acknowledgements</h4>
                 <p class="tag-line">&copy;<span id="currentYear"></span> | <a href ="https://cherron42.github.io">Connie Herron - Virginia</a> | 
                 <a href="https://www.byui.edu/online" target="_blank">BYU Online Learning</a> <br>
-                <span id="currentDate"></span> <br></p>
+                Current Date: <span id="currentDate"></span> <br>
+                Last Modified: <span id="lastModified"></span></p>
                 <p> Weather Forecast Info: <a href ="https://openweathermap.org/">Open Weather Map</a><br></p>
         </div>
-        
-      
-
+    
     </footer>
     <script src="js/datetime.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/imagehandling.js"></script>
     <script src="js/localdata.js"></script>
+    <script src="js/toggleview.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({

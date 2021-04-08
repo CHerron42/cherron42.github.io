@@ -4,7 +4,9 @@
 
 /*--header, main, font info --*/
 
-
+* {
+    box-sizing: border-box;
+}
 body {
   margin: 0;
   
@@ -93,8 +95,6 @@ nav ul.hide {
     position: relative;
     max-width: 100%;
   }
-  
-
 
 
 /*-- Call to Action --*/
@@ -122,7 +122,7 @@ nav ul.hide {
     }
 
 .join-action:hover {
-          box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     }
 
 .page-title {
@@ -149,12 +149,19 @@ nav ul.hide {
      padding: 20px;
      margin-top: 5px;
  }
- .info-photo , .contact-photo{
+ .info-photo , .contact-photo {
      width: 175px; 
      float: right;
      margin: 1.5rem;
      border-radius: 3px;
      box-shadow: 2px 2px 5px 2px #888;
+    
+ }
+ /*-- Demographics --*/
+ .demographics {
+     list-style-type: circle;
+     font-family: 'Alegreya SC', serif;
+     letter-spacing: .25px;
     
  }
  /*-- current events --*/
@@ -167,36 +174,62 @@ nav ul.hide {
     box-shadow: 2px 2px 5px 2px #888;
 
 }
+
 .current-events {
-    display: block;
     background: #e0e0e0;
-    /*padding: 30px;*/
-    margin-top: 5px;
-    
-    
+    padding: 5px 2vw;
+    margin-bottom: 10px;    
 }
+
 .contact-article {
     padding: 5px;
 }
+.current {
+    position: static;
+    background-color:#ffffff;
+    padding: 5px 8px;
+    border: 2px solid rgb(126, 126, 126);
+    margin: 0 auto;
+    max-width: 80%;
+    align-items: center;
+    justify-items: center;
+    filter: blur(0em);
+    transition: filter 5s;
+    box-shadow: 2px 2px 5px 2px #888;
+}
+.thanks-info {
+    padding-left: 2vw;
+}
+.weather-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 2px #888;
 
-
+}
+.join {
+    list-style-type: circle;
+    font-family: 'Montserrat', sans-serif;
+}
 
  /*-- extended forecast--*/
- /*h3.forecast-header {
-    display: block;
+ h3.forecast-header {
+    display: none;
     float: left;
 }
  .forecast-container {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: none;
+    grid-template-columns: repeat(15, 1fr);
     float: left;
-    padding: 35px;
+    padding: 5px;
 }
+
 .forecast-item {
     background: #fff;
     width: 100px;
     height: 120px;
-    border-bottom: 3px solid #FB8300;
     padding: 5px; 
     text-align: center;
     margin: 0 auto;
@@ -206,9 +239,7 @@ nav ul.hide {
     content: "";
     display: table;
     clear: both;
-  }*/
-
- 
+  }
 
 /*-- Featured Businesses --*/
 .featured-header {
@@ -243,18 +274,11 @@ nav ul.hide {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 15px;
-          
-          
-  }
-  
-  
-  .featuredCard:hover {
+ }
+.featuredCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-  
- 
-  
-  .paragraph-1 {
+ .paragraph-1 {
     padding: 5px 25px;
   }
   .clearfix:after {
@@ -268,7 +292,7 @@ nav ul.hide {
 /*-- Forms --*/
 .business-form, .contact-form {
     display: block;
-    padding: 1rem;
+    padding: 2vw;
 }
 
 fieldset {
@@ -280,7 +304,7 @@ fieldset {
   }
   
   form fieldset {
-    margin: 2rem 0;
+    margin: 2vw 0;
     border: 1px solid #445;
     border-radius: 5px;
     padding: .5rem 2%;
@@ -288,8 +312,8 @@ fieldset {
   }
   form legend {
     color: #1b0a3b;
-    margin:  0 1rem;
-    padding: 0 .5rem;
+    margin:  0 1vw;
+    padding: 0 .5vw;
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
   }
@@ -352,7 +376,6 @@ fieldset {
     grid-template-rows: 1fr;
     gap: 10px;
     padding-bottom: 5%;
-    
          
 }
 
@@ -363,10 +386,7 @@ section {
     max-width: 100%;
     padding: 10px;
     background-color: #fff;
-    border: 1px solid rgb(124, 124, 124);
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px 2px #888;
-    
+   
 }
 section h3 {
     text-align: center;
@@ -380,14 +400,13 @@ section p {
 section img {
     
     height: 300px;
-    margin: auto;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
     padding: 10px;
 }
-
-
 
 /*-- footer --*/
 
@@ -400,8 +419,6 @@ footer {
     color: #000;
     padding: 3vw;
 }
-
-
 footer a {
     color: #225f6b;
     text-decoration: none;
@@ -421,7 +438,8 @@ footer .tagline {
     width: 30px;
 }
 .acknowledgments {
-    padding-bottom: 20px;
+    
+    padding: 35px;
 }
 
     

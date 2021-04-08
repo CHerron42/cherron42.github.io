@@ -8,10 +8,7 @@
         flex-wrap: wrap;
         
     }
-    
-    
-   
-
+ 
     /*-- Navigation --*/
 
     nav button {
@@ -71,12 +68,35 @@
     .contact-article {
         padding-top: 45px;
     }
+/*-- extended forecast--*/
+h3.forecast-header {
+    display: block;
+    
+}
+ .forecast-container {
+    display: grid;
+   
+}
+
+
 /*-- current events --*/
     
     .events-photo {
         
-        width: 250px;
-        margin-top: 35px;
+        width: 200px;
+       
+    }
+/*-- Demographics --*/
+    .demographics {
+        font-size: x-large;
+    }
+/*--Current Weather --*/
+    .current {
+        display: flex;
+        flex-direction: row;
+    }
+    .weather-photo {
+        margin: 10px 5px;
     }
 
 /*-- Featured Businesses --*/
@@ -118,15 +138,9 @@ form fieldset {
         height: 15rem;
         /*padding: 175px;*/
     }
-
-
-    /* Contact Info Section 
-    .contact{
-        float: right;
-        margin-right: 75px;
-        margin-top: -210px;
-
-    }*/
+    .acknowledgments {
+        margin: 20px;
+    }
 
     
 }

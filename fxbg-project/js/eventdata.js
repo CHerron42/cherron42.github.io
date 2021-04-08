@@ -17,7 +17,7 @@ fetch(requestURL)
                 let p4 = document.createElement('p');
                 let p5 = document.createElement('p');
                 
-                let image = document.createElement('img');
+                
 
                 div.setAttribute('class', 'eventInfo')
                 p1.textContent = town.events[0];
